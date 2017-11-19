@@ -185,6 +185,10 @@ hr.newStyle {
 	font-size: 20px;
 }
 
+.socialMediaFooter.fa{
+	color: #659DBD;
+}
+
 /* Animaciones */
 .animated {
   -webkit-animation-duration: 1s;
