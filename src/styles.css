@@ -196,6 +196,12 @@ hr.newStyle {
   animation-name: fadeIn;
 }
 
+@media screen and (max-width: 768px){
+	.form-control{
+		width: 85% !important;
+	}
+}
+
 div.gallery {
     padding: 10px;
     float: left;
