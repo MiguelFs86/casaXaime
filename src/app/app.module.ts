@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { Http, HttpModule } from '@angular/http';
 import { TranslateModule, TranslateLoader, TranslateStaticLoader } from 'ng2-translate';
 
+import { HashLocationStrategy, LocationStrategy } from "@angular/common";
+
 // Routes
 import { APP_ROUTING } from './app.routes';
 
@@ -48,7 +50,7 @@ export function httpFactory(http: Http){
     }),
     APP_ROUTING
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
