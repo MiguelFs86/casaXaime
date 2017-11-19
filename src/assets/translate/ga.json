@@ -10,5 +10,8 @@
 	},
     "GALLERY": {
         "TITLE": "Galería de imaxes"
+    },
+    "RESERVATION":{
+    	"NAME": "Nome"
     }
 }
