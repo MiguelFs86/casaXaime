@@ -50,12 +50,20 @@ p, label{
 .nav-link {
 	font-size: 18px;
 	font-style: italic;
+	margin-left: 10px;
 	padding-right: 1em !important;
 	padding-left: 0.5em !important;
   	font-family: 'Poppins', sans-serif;
   	float: left;
   	position: relative;
   	overflow: hidden;
+  	transform: scale(1.0);
+    transition: 0.5s all ease;
+}
+
+.nav-link:hover{
+	transform: scale(1.2);
+    transition: 0.5s all ease;
 }
 
 .nav-link::after {
@@ -80,6 +88,20 @@ p, label{
 .lenguageIcons{
 	margin-left: 10px;
 	padding: 2px;
+}
+
+.flagIcon{
+	width: 30px;
+	height: 28px;
+	margin-left: 5px;
+	border-radius: 22px;
+	transform: scale(1.0);
+    transition: 0.5s all ease;
+}
+
+.flagIcon:hover{
+	transform: scale(1.3);
+    transition: 0.5s all ease;
 }
 
 .main-title{
@@ -145,7 +167,7 @@ hr.newStyle {
 
 .footer{
 	bottom: 0px;
-	height: 40px;
+	height: 30px;
 	position: fixed;
 	width: 100%;
 	border: 1px solid #BC986A;
@@ -156,11 +178,11 @@ hr.newStyle {
 
 .footer-contact{
 	font-size: 12px;
-	padding-top: 5px;
 }
 
 .socialMediaFooter{
 	padding-right: 20px;
+	font-size: 20px;
 }
 
 /* Animaciones */
