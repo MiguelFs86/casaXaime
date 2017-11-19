@@ -1,10 +1,18 @@
 <div class="container animated fadeIn col-md-10 offset-1">
 	<h3 class="text-center" style="color: #659DBD">{{ 'GALLERY.TITLE' | translate }}</h3>
     <hr>
+    <div class="row">
+		<div class="gallery col-md-4" *ngFor="let item of firstImgArr">
+			<a [href]=item.src data-lightbox="example-1">
+			    <img [src]=item.thumb>
+			</a>
+		</div>
+	</div>
+	<hr>
 	<div class="row">
 		<div class="gallery col-md-3" *ngFor="let item of imgArr">
-			<a [href]=item data-lightbox="example-1">
-			    <img [src]=item width="300" height="200">
+			<a [href]=item.src data-lightbox="example-1">
+			    <img [src]=item.thumb>
 			</a>
 		</div>
 	</div>
