@@ -12,6 +12,7 @@
         "TITLE": "Image gallery"
     },
     "RESERVATION":{
-    	"NAME": "Name"
+    	"NAME": "Name",
+    	"SURNAME": "Surname"
     }
 }

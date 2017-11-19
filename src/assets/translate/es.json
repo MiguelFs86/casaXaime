@@ -12,6 +12,7 @@
         "TITLE": "Galería de imágenes"
     },
     "RESERVATION":{
-    	"NAME": "Nombre"
+    	"NAME": "Nombre",
+    	"SURNAME": "Apellidos"
     }
 }
