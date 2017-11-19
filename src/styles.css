@@ -1,1 +1,220 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face{
+	font-family: 'Hancock';
+	src: url('assets/fonts/Hancock.ttf'),
+		 url('assets/fonts/Hancock.woff');
+}
+
+body{
+	background-color: #FBEEC1;
+	padding-top: 60px;
+	padding-bottom: 70px;
+	z-index: 0;
+	/* background-image: url('/assets/img/background.jpeg'); */
+}
+
+p, label{
+	color:white;
+	font-style: italic;
+}
+
+.bg-dark{
+	background-color: #DAAD86 !important;
+}
+
+.navbar{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 60px;
+	z-index: 500;
+	border: 1px solid #BC986A;
+	 -webkit-box-shadow: 0px 1px 1px #BC986A;
+    -moz-box-shadow:    0px 1px 1px #BC986A;
+    box-shadow:         0px 1px 1px #BC986A;
+}
+
+.jumbotron{
+	background-color: #659DBD;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	border-radius: 5px;
+	border: 1px solid #BC986A;
+	 -webkit-box-shadow: 0px 1px 1px #BC986A;
+    -moz-box-shadow:    0px 1px 1px #BC986A;
+    box-shadow:         0px 1px 1px #BC986A;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color:white;
+}
+
+.nav-link {
+	font-size: 18px;
+	font-style: italic;
+	padding-right: 1em !important;
+	padding-left: 0.5em !important;
+  	font-family: 'Poppins', sans-serif;
+  	float: left;
+  	position: relative;
+  	padding: 10px 20px;
+  	overflow: hidden;
+}
+
+.nav-link::after {
+  background-color: #BC986A;
+  content: "";
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  transition: width 0.35s ease 0s;
+  position: absolute;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link{
+	color:#BC986A;
+}
+
+.lenguageIcons{
+	margin-left: 10px;
+	padding: 2px;
+}
+
+.main-title{
+	font-family: 'Hancock';
+	font-size: 80px;
+	font-style: normal;
+	color: #FBEEC1;
+}
+
+.main-images{
+	border-radius: 5px;
+	border: 1px solid #FBEEC1;
+	 -webkit-box-shadow: 0px 1px 1px #FBEEC1;
+    -moz-box-shadow:    0px 1px 1px #FBEEC1;
+    box-shadow:         0px 1px 1px #FBEEC1;
+
+}
+
+hr.newStyle {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #FBEEC1 inset;
+}
+
+.main-container{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.service-container{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.house-container{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.table-low{
+	color: #595959;
+	background-color: #99e699;
+}
+
+.table-medium{
+	color: #595959;
+	background-color: #ffdd99;
+}
+
+.table-high{
+	color: #595959;
+	background-color: #b3d9ff;
+}
+
+.pricing-data{
+	padding-bottom: 0px !important;
+}
+
+.reservation-form{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer{
+	bottom: 0px;
+	position: fixed;
+	width: 100%;
+	border: 1px solid #BC986A;
+	-webkit-box-shadow: 0px -1px 1px #BC986A;
+    -moz-box-shadow: 0px -1px 1px #BC986A;
+    box-shadow: 0px -1px 1px #BC986A;
+}
+
+.footer-contact{
+	font-size: 12px;
+	padding-top: 20px;
+	height: 70px;
+}
+
+.socialMediaFooter{
+	padding-right: 20px;
+}
+
+/* Animaciones */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+div.gallery {
+    padding: 10px;
+    float: left;
+    transform: scale(1.0);
+    transition: 0.5s all ease;
+}
+
+div.gallery:hover {
+    transform: scale(1.1);
+    transition: 0.5s all ease;
+}
+
+div.gallery img {
+	border-radius: 2px;
+    width: 100%;
+    height: 100%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+<nav class="navbar fixed-navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img src="/assets/img/A-64.png" width="30" height="30"/>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['home']">{{ 'NAVBAR.HOME' | translate }}</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['thehouse']">{{ 'NAVBAR.HOUSE' | translate }}</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['services']">{{ 'NAVBAR.SERVICES' | translate }}</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['gallery']">{{ 'NAVBAR.GALLERY' | translate }}</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['pricing']">{{ 'NAVBAR.RATES' | translate }}</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['reservation']">{{ 'NAVBAR.RESERVATION' | translate }}</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['about']">{{ 'NAVBAR.ABOUT' | translate }}</a>
+      </li>
+    </ul>
+    <div class="lenguageIcons">
+      <a (click)=changeLenguage(0)>
+        <img [src]='spanishFlag' width="30" height="20"/>
+      </a>
+      <a (click)=changeLenguage(1)>
+        <img [src]='galicianFlag' width="30" height="20"/>
+      </a>
+      <a (click)=changeLenguage(2)>
+        <img [src]='englishFlag' width="30" height="20"/>
+      </a>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,12 @@
+<div class="col-md-8 offset-2 animated fadeIn jumbotron jumbotron-fluid">
+	<div class="container service-container">
+		<ul class="list-group service-list" *ngFor="let item of serviceList">
+			<li class="list-group-item service-item">
+				<span>
+					<img [src]=item.icon width="50" height="40">
+				</span>
+				{{ item.title }}
+			</li>
+		</ul>
+	</div>
+</div>

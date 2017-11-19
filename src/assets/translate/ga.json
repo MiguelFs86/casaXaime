@@ -1,0 +1,14 @@
+{
+	"NAVBAR":{
+		"HOME": "Inicio",
+		"HOUSE": "A casa",
+		"SERVICES": "Servizos",
+		"GALLERY": "Galería",
+		"RATES": "Tarifas/Prezos",
+		"RESERVATION": "Reservas",
+		"ABOUT": "Sobre nos"
+	},
+    "GALLERY": {
+        "TITLE": "Galería de imaxes"
+    }
+}
