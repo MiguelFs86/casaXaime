@@ -55,7 +55,6 @@ p, label{
   	font-family: 'Poppins', sans-serif;
   	float: left;
   	position: relative;
-  	padding: 10px 20px;
   	overflow: hidden;
 }
 
@@ -106,7 +105,7 @@ hr.newStyle {
 }
 
 .main-container{
-	margin-top: -60px;
+	margin-top: -20px;
 	margin-bottom: 50px;
 }
 
@@ -146,6 +145,7 @@ hr.newStyle {
 
 .footer{
 	bottom: 0px;
+	height: 40px;
 	position: fixed;
 	width: 100%;
 	border: 1px solid #BC986A;
@@ -156,8 +156,7 @@ hr.newStyle {
 
 .footer-contact{
 	font-size: 12px;
-	padding-top: 20px;
-	height: 70px;
+	padding-top: 5px;
 }
 
 .socialMediaFooter{
