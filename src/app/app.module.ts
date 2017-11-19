@@ -20,6 +20,10 @@ import { ThehouseComponent } from './components/thehouse/thehouse.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 
+export function httpFactory(http: Http){
+  return new TranslateStaticLoader(http, '/assets/translate', '.json');
+}
+
 
 @NgModule({
   declarations: [
@@ -39,7 +43,7 @@ import { PricingComponent } from './components/pricing/pricing.component';
     HttpModule,
     TranslateModule.forRoot({
       provide: TranslateLoader,
-      useFactory: (http: Http) => new TranslateStaticLoader(http, '/assets/translate', '.json'),
+      useFactory: httpFactory,
       deps: [Http]
     }),
     APP_ROUTING
