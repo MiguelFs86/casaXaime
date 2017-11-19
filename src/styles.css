@@ -24,11 +24,8 @@ p, label{
 }
 
 .navbar{
-	position: fixed;
-	top: 0px;
+	top: -60px;
 	width: 100%;
-	height: 60px;
-	z-index: 500;
 	border: 1px solid #BC986A;
 	 -webkit-box-shadow: 0px 1px 1px #BC986A;
     -moz-box-shadow:    0px 1px 1px #BC986A;
@@ -109,7 +106,7 @@ hr.newStyle {
 }
 
 .main-container{
-	margin-top: 20px;
+	margin-top: -60px;
 	margin-bottom: 50px;
 }
 
