@@ -12,7 +12,17 @@
         "TITLE": "Galería de imágenes"
     },
     "RESERVATION":{
+    	"TITLE":"Reservas",
     	"NAME": "Nombre",
     	"SURNAME": "Apellidos"
+    },
+    "THEHOUSE":{
+    	"TITLE":"La casa"
+    },
+    "SERVICES":{
+    	"TITLE":"Servicios"
+    },
+    "PRICING":{
+    	"TITLE":"Tarifas/precios"
     }
 }

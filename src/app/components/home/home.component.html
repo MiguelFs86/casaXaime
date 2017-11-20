@@ -1,27 +1,24 @@
-<div class="animated fadeIn jumbotron jumbotron-fluid">
-  <div class="container">
+<div class="jumbotron jumbotron-fluid home-container">
   	<h1 class="main-title text-center">Casa Xaime</h1>
   	<hr class="newStyle">
   	<div class="row">
-  		<div class="col text-center">
-  			<img class="main-images" [src]='mainImage1' height="200" width="300">
-  		</div>
-  		<div class="col text-center">
-  			<img class="main-images" [src]='mainImage2' height="200" width="300">
-  		</div>
-  		<div class="col text-center">
-  		  <img class="main-images" [src]='mainImage3' height="200" width="300">
+  		<div class="home-gallery col-xl-4 col-lg-4 col-md-6" *ngFor="let item of imageArray">
+          <a [href]=item.src data-lightbox="frontage-1">
+            <img [src]=item.thumb>
+        </a>
   		</div>
   	</div>
   	<hr class="newStyle">
-  </div>
+
   <br>
   <div class="container">
   	<div class="row">
-  		<div class="offset-md-3">
-  			<img class="main-images" [src]='frontage1' height="220" width="280">
+  		<div class="home-image offset-xl-3 offset-lg-2 col-xl-3 col-lg-4">
+  			<a [href]=frontage1 data-lightbox="frontage-2">
+            <img [src]=frontage1>
+        </a>
   		</div>
-  		<div class="col">
+  		<div class="col-xl-6 col-lg-6">
   			<p style="font-size: 14px"> Situada en el pueblo de "O Reto", a 20 km. de Monfero, Casa Xaime ofrece una estancia en un entorno natural único. 
   			</p>
   			<p style="font-size: 14px"> Nuestra casa rural ofrece multitud de servicios, como alojamiento, comida, actividades nocturas, reuniones de negocios, así como actividades de exterior como paseos por el monte en Quado rutas a caballo.

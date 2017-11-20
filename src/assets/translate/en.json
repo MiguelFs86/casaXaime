@@ -12,7 +12,17 @@
         "TITLE": "Image gallery"
     },
     "RESERVATION":{
+    	"TITLE":"Reservations",
     	"NAME": "Name",
     	"SURNAME": "Surname"
+    },
+    "THEHOUSE":{
+    	"TITLE":"The house"
+    },
+    "SERVICES":{
+    	"TITLE":"Services"
+    },
+    "PRICING":{
+    	"TITLE":"Pricing/Rates"
     }
 }

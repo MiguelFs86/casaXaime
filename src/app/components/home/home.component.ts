@@ -10,22 +10,20 @@ export class HomeComponent implements OnInit {
 	mainImage2: string;
 	mainImage3: string;
 
-  frontage1: string
+  frontage1: string 
 
-	facebookLogo: string;
-	twitterLogo: string;
-	googlePlusLogo: string;
 
-  	constructor() { 
-  		this.mainImage1 = '/assets/img/FrontImage1.jpeg';
-  		this.mainImage2 = '/assets/img/FrontImage2.jpeg';
-  		this.mainImage3 = '/assets/img/FrontImage3.jpeg';
+  	constructor() {
       this.frontage1 = '/assets/img/Frontage1.jpg';
-  		this.facebookLogo = '/assets/img/logos/facebook.png';
-  		this.twitterLogo = '/assets/img/logos/twitter.png';
-  		this.googlePlusLogo = '/assets/img/logos/googlePlus.png';
-
   	}
+
+    imageArray = [
+      {'src':'/assets/img/gallery/frontage1-1.jpg','thumb':'/assets/img/gallery/frontage1-1-thumb.jpg'},
+      {'src':'/assets/img/gallery/frontage1-2.jpg','thumb':'/assets/img/gallery/frontage1-2-thumb.jpg'},
+      {'src':'/assets/img/gallery/frontage1-3.jpg','thumb':'/assets/img/gallery/frontage1-3-thumb.jpg'}
+    ];
+
+
 
   	ngOnInit() {
     }
