@@ -191,7 +191,7 @@ hr.newStyle {
 
 @media screen and (max-width: 400px){
 	.footer-contact{
-		font-size: 10px;
+		font-size: 8px;
 	}
 }
 
@@ -276,6 +276,17 @@ div.gallery {
     transition: 0.5s all ease;
     width: 100%;
     height: 100%;
+}
+
+@media screen and (max-width: 768px){
+	div.gallery {
+	    padding: 10px;
+	    float: left;
+	    transform: scale(1.0);
+	    transition: 0.5s all ease;
+	    width: 50%;
+	    height: 50%;
+	}
 }
 
 div.gallery:hover {
