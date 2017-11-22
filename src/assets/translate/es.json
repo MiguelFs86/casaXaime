@@ -6,7 +6,7 @@
 		"GALLERY": "Galería",
 		"RATES": "Tarifas/Precios",
 		"RESERVATION": "Reservas",
-		"ABOUT": "Sobre nosotros"
+		"ABOUT": "¿Cómo llegar?"
 	},
     "GALLERY": {
         "TITLE": "Galería de imágenes"
@@ -24,5 +24,9 @@
     },
     "PRICING":{
     	"TITLE":"Tarifas/precios"
+    },
+    "HOWTOGET":{
+        "TITLE":"¿Como llegar?",
+        "MAPS":"Ver en Google Maps"
     }
 }

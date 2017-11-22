@@ -6,7 +6,7 @@
 		"GALLERY": "Galery",
 		"RATES": "Pricing/Rates",
 		"RESERVATION": "Reservation",
-		"ABOUT": "About us"
+		"ABOUT": "How to get?"
 	},
     "GALLERY": {
         "TITLE": "Image gallery"
@@ -24,5 +24,9 @@
     },
     "PRICING":{
     	"TITLE":"Pricing/Rates"
+    },
+    "HOWTOGET":{
+        "TITLE": "How to get?",
+        "MAPS":"Watch in Google Maps"
     }
 }

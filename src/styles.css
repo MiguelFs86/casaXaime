@@ -109,26 +109,26 @@ p, label{
 
 .main-title{
 	font-family: 'Hancock';
-	font-size: 80px;
+	font-size: 60px;
 	font-style: normal;
 	color: #FBEEC1;
 }
 
 @media screen and (max-width: 1024px){
 	.main-title{
-		font-size: 60px;
+		font-size: 40px;
 	}
 }
 
-@media screen and (max-width: 432px){
+@media screen and (max-width: 520px){
 	.main-title{
-		font-size: 50px;
+		font-size: 30px;
 	}
 }
 
 @media screen and (max-width: 375px){
 	.main-title{
-		font-size: 40px;
+		font-size: 20px;
 	}
 }
 
@@ -155,6 +155,14 @@ hr.newStyle {
 	.main-container{
 		margin-top: -20px;
 		margin-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 592px){
+	.main-container{
+		padding: 40px;
+		margin-top: -50px;
+		margin-bottom: 0px;
 	}
 }
 
@@ -203,8 +211,20 @@ hr.newStyle {
     box-shadow: 0px -1px 1px #BC986A;
 }
 
+@media screen and (max-width: 658px){
+	.footer{
+		height: 50px;
+	}
+}
+
 .footer-contact{
 	font-size: 12px;
+}
+
+@media screen and (max-width: 690px){
+	.footer-contact{
+		padding-right: 0px;
+	}
 }
 
 @media screen and (max-width: 400px){
@@ -220,6 +240,49 @@ hr.newStyle {
 
 .socialMediaFooter .fa{
 	color: #659DBD;
+}
+
+@media screen and (max-width: 690px){
+	.socialMediaFooter{
+		
+	}
+}
+
+@media screen and (max-width: 650px){
+	.socialMediaFooter{
+		margin-top: -5px;
+	}
+}
+
+@media screen and (max-width: 584px){
+	.socialMediaFooter{
+		margin-top: -15px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.socialMediaFooter{
+		margin-top: 5px;
+		font-size: 14px;
+	}
+}
+
+.map{
+	width: 100%;
+	height: 400px;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 576px){
+	.map{
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 442px){
+	.map{
+		height: 250px;
+	}
 }
 
 /* Animaciones */
@@ -304,6 +367,17 @@ div.gallery {
 	    transition: 0.5s all ease;
 	    width: 50%;
 	    height: 50%;
+	}
+}
+
+@media screen and (max-width: 574px){
+	div.gallery {
+	    padding: 10px;
+	    float: left;
+	    transform: scale(1.0);
+	    transition: 0.5s all ease;
+	    width: 33%;
+	    height: 33%;
 	}
 }
 
