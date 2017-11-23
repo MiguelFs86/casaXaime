@@ -10,11 +10,14 @@ export class HomeComponent implements OnInit {
 	mainImage2: string;
 	mainImage3: string;
 
+  logo: string;
+
   frontage1: string 
 
 
   	constructor() {
       this.frontage1 = '/assets/img/Frontage1.jpg';
+      this.logo = '/assets/img/logo.png';
   	}
 
     imageArray = [
