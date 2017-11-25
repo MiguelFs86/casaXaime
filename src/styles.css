@@ -93,6 +93,13 @@ p, label{
 	padding: 2px;
 }
 
+@media screen and (max-width: 991px){
+	.lenguageIcons{
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+}
+
 .flagIcon{
 	width: 30px;
 	height: 28px;
@@ -100,6 +107,13 @@ p, label{
 	border-radius: 22px;
 	transform: scale(1.0);
     transition: 0.5s all ease;
+}
+
+@media screen and (max-width: 991px){
+	.flagIcon{
+		width: 25px;
+		height: 22px;
+	}
 }
 
 .flagIcon:hover{
