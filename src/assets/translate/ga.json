@@ -27,6 +27,9 @@
     },
     "HOWTOGET":{
         "TITLE": "¿Cómo chegar?",
-        "MAPS":"Ver en Google Maps"
+        "MAPS":"Ver en Google Maps",
+        "ACORUNA": "Dende A Coruña: ",
+        "LUGO": "Dende Lugo: ",
+        "SANTIAGO": "Dende Santiago: "
     }
 }

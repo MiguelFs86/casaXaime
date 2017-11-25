@@ -12,21 +12,19 @@ export class HomeComponent implements OnInit {
 
   logo: string;
 
-  frontage1: string 
+  frontage1: string; 
 
 
-  	constructor() {
-      this.frontage1 = '/assets/img/Frontage1.jpg';
-      this.logo = '/assets/img/logo.png';
-  	}
+  constructor() {
+    this.frontage1 = '/assets/img/Frontage1.jpg';
+    this.logo = '/assets/img/logo.png';
+  }
 
-    imageArray = [
-      {'src':'/assets/img/gallery/frontage1-1.jpg','thumb':'/assets/img/gallery/frontage1-1-thumb.jpg'},
-      {'src':'/assets/img/gallery/frontage1-2.jpg','thumb':'/assets/img/gallery/frontage1-2-thumb.jpg'},
-      {'src':'/assets/img/gallery/frontage1-3.jpg','thumb':'/assets/img/gallery/frontage1-3-thumb.jpg'}
-    ];
-
-
+  imageArray = [
+    {'src':'/assets/img/gallery/frontage1-1.jpg','thumb':'/assets/img/gallery/frontage1-1-thumb.jpg'},
+    {'src':'/assets/img/gallery/frontage1-2.jpg','thumb':'/assets/img/gallery/frontage1-2-thumb.jpg'},
+    {'src':'/assets/img/gallery/frontage1-3.jpg','thumb':'/assets/img/gallery/frontage1-3-thumb.jpg'}
+  ];
 
   	ngOnInit() {
     }
