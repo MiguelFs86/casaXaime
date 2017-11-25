@@ -8,6 +8,9 @@
 		"RESERVATION": "Reservation",
 		"ABOUT": "How to get?"
 	},
+    "HOME":{
+        "MAINTITLE":"Hotel Rural Casa Xaime"
+    },
     "GALLERY": {
         "TITLE": "Image gallery"
     },

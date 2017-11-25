@@ -8,6 +8,9 @@
 		"RESERVATION": "Reservas",
 		"ABOUT": "¿Cómo chegar?"
 	},
+    "HOME":{
+        "MAINTITLE":"Hotel Rural Casa Xaime"
+    },
     "GALLERY": {
         "TITLE": "Galería de imaxes"
     },
