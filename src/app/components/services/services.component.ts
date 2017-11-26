@@ -9,6 +9,7 @@ export class ServicesComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+  	window.scrollTo(0, 0);
   }
 
   serviceList = [

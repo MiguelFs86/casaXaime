@@ -6,6 +6,18 @@
 		 url('assets/fonts/Hancock.woff');
 }
 
+.example-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  min-width: 300px;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
+}
+
 body{
 	background-color: #FBEEC1;
 	padding-top: 60px;
@@ -26,7 +38,8 @@ p, label{
 
 
 .navbar{
-	top: -60px;
+	position: fixed;
+	top: 0px;
 	z-index: 500;
 	width: 100%;
 	border: 1px solid #224e34c9;
@@ -163,12 +176,13 @@ hr.newStyle {
 }
 
 .main-container{
+	margin-top: 40px;
 	margin-bottom: 50px;
 }
 
 @media screen and (max-width: 992px){
 	.main-container{
-		margin-top: -20px;
+		margin-top: 40px;
 		margin-bottom: 50px;
 	}
 }
@@ -176,7 +190,7 @@ hr.newStyle {
 @media screen and (max-width: 592px){
 	.main-container{
 		padding: 40px;
-		margin-top: -50px;
+		margin-top: 40px;
 		margin-bottom: 0px;
 	}
 }

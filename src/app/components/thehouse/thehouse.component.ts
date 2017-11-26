@@ -17,6 +17,7 @@ export class ThehouseComponent implements OnInit {
   	}
 
   ngOnInit() {
+    window.scrollTo(0, 0);
   }
 
 }

@@ -11,6 +11,7 @@ export class AboutComponent implements OnInit {
 
 
   ngOnInit() {
+    window.scrollTo(0, 0);
   	var coordinates = new google.maps.LatLng(43.291079, -7.958659);
    	var mapOptions = {
         center: coordinates,
