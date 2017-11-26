@@ -1,15 +1,8 @@
 #.travis.yaml
-
-lenguage: node_js
-node_js:
-  - "8.1.2"
-
-branches:
-  only:
-    - master
-
 before_script:
   - npm install -g @angular/cli
-
 script:
   - ng build --prod
+lenguage: node_js
+node_js:
+  - "8.1"
