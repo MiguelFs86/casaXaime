@@ -17,7 +17,17 @@
     "RESERVATION":{
     	"TITLE":"Reservations",
     	"NAME": "Name",
-    	"SURNAME": "Surname"
+    	"SURNAME": "Surname",
+        "EMAIL": "Email:",
+        "CHECKINDATE": "Check-in date:",
+        "CHECKOUTDATE": "Check-out date:",
+        "ROOMS": "Number of rooms:",
+        "SELECT": "Choose an option",
+        "ADITIONALCOMMENTS": "Aditional comments:",
+        "SEND": "Send",
+        "ACCEPT":"I agree with the ",
+        "TERMS": "térms and conditions ",
+        "RESERVATION": "of the reservation."
     },
     "THEHOUSE":{
     	"TITLE":"The house"

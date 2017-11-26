@@ -16,8 +16,18 @@
     },
     "RESERVATION":{
     	"TITLE":"Reservas",
-    	"NAME": "Nombre",
-    	"SURNAME": "Apellidos"
+    	"NAME": "Nombre:",
+    	"SURNAME": "Apellidos:",
+        "EMAIL": "Email:",
+        "CHECKINDATE": "Fecha de llegada:",
+        "CHECKOUTDATE": "Fecha de salida:",
+        "ROOMS": "Nº de habitaciones:",
+        "SELECT": "Seleccione una opción",
+        "ADITIONALCOMMENTS": "Comentarios adicionales:",
+        "SEND": "Enviar",
+        "ACCEPT":"Acepto los ",
+        "TERMS": "términos y condiciones",
+        "RESERVATION": "de la reserva."
     },
     "THEHOUSE":{
     	"TITLE":"La casa"

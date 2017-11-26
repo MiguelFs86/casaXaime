@@ -17,7 +17,17 @@
     "RESERVATION":{
     	"TITLE":"Reservas",
     	"NAME": "Nome",
-    	"SURNAME": "Apelidos"
+    	"SURNAME": "Apelidos",
+        "EMAIL": "Email:",
+        "CHECKINDATE": "Data de chegada:",
+        "CHECKOUTDATE": "Data de saida:",
+        "ROOMS": "Nº de habitacións:",
+        "SELECT": "Seleccione unha opción",
+        "ADITIONALCOMMENTS": "Comentarios adicionáis:",
+        "SEND": "Enviar",
+        "ACCEPT":"Acepto os ",
+        "TERMS": "términos e condicións",
+        "RESERVATION": "da reserva."
     },
     "THEHOUSE":{
     	"TITLE":"A casa"
