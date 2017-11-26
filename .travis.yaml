@@ -1,7 +1,7 @@
 #.travis.yaml
 lenguage: node_js
 node_js:
-  - '8.2'
+  - "8"
 before_script:
   - npm install -g @angular/cli
 script:
