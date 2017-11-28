@@ -21,7 +21,6 @@ body{
 
 p, label{
 	color:white;
-	font-style: italic;
 }
 
 .table{
@@ -207,10 +206,9 @@ hr.newStyle {
 	margin-bottom: 50px;
 }
 
-.serviceList{
-	border: 1px solid;
-	border-radius: 5px;
+.service-list{
 	padding: 5px;
+	font-size: 14px;
 	color: #224e34c9;
 	transition: all .3s;
 	-webkit-animation-duration: 1s;
@@ -221,8 +219,7 @@ hr.newStyle {
 }
 
 .service-title{
-	font-size: 18px;
-	margin-top: 5px;
+	font-size: 16px;
 	color: #224e34c9;
 }
 
