@@ -124,6 +124,7 @@ p, label{
 }
 
 .flagIcon{
+	cursor: pointer;
 	width: 30px;
 	height: 28px;
 	margin-left: 5px;
@@ -201,6 +202,10 @@ hr.newStyle {
 	}
 }
 
+.fa{
+	cursor: pointer;
+}
+
 .service-container{
 	margin-top: 20px;
 	margin-bottom: 50px;
@@ -224,6 +229,7 @@ hr.newStyle {
 }
 
 .service-item{
+	cursor: pointer;
 	transform: scale(1.0);
     transition: 0.5s all ease;
 }
