@@ -52,7 +52,10 @@ export class GalleryComponent implements OnInit {
       {'src': '/assets/img/gallery/room3-4.jpg', 'thumb': '/assets/img/gallery/room3-4-thumb.jpg'},
   		{'src': '/assets/img/gallery/room3-5.jpg', 'thumb': '/assets/img/gallery/room3-5-thumb.jpg'},
       {'src': '/assets/img/gallery/outside1-1.jpg', 'thumb': '/assets/img/gallery/outside1-1-thumb.jpg'},
-      {'src': '/assets/img/gallery/outside1-2.jpg', 'thumb': '/assets/img/gallery/outside1-2-thumb.jpg'}
+      {'src': '/assets/img/gallery/outside1-2.jpg', 'thumb': '/assets/img/gallery/outside1-2-thumb.jpg'},
+      {'src': '/assets/img/gallery/cafeteria1-1.jpg', 'thumb': '/assets/img/gallery/cafeteria1-1-thumb.jpg'},
+      {'src': '/assets/img/gallery/cafeteria1-2.jpg', 'thumb': '/assets/img/gallery/cafeteria1-2-thumb.jpg'},
+      {'src': '/assets/img/gallery/cafeteria1-3.jpg', 'thumb': '/assets/img/gallery/cafeteria1-3-thumb.jpg'}
   	]
 
 }
