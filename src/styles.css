@@ -8,17 +8,38 @@
 }
 
 body{
-	background-color: #FBEEC1;
+	z-index: 600;
 	padding-top: 60px;
-	padding-bottom: 70px;
-	z-index: 0;
-	
-	/* background-image: url('/assets/img/background.jpeg'); */
+	padding-bottom: 100px;
+	background: -webkit-linear-gradient(#FBEEC1, #eac238ab); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FBEEC1, #eac238ab); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FBEEC1, #eac238ab); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FBEEC1, #eac238ab); /* Standard syntax */
+    background-attachment: fixed;
 }
+
 
 p, label{
 	color:white;
 	font-style: italic;
+}
+
+.table{
+	border: 1px solid;
+	border-radius: 10px !important;
+	border-color: #224e34c9;
+}
+
+.table thead th{
+	border-bottom: none;
+}
+
+.table th{
+	border-top: none;
+}
+
+.table td{
+	border-top: none;
 }
 
 .bg-dark{
@@ -166,13 +187,11 @@ hr.newStyle {
 
 .main-container{
 	margin-top: 40px;
-	margin-bottom: 50px;
 }
 
 @media screen and (max-width: 992px){
 	.main-container{
 		margin-top: 40px;
-		margin-bottom: 50px;
 	}
 }
 
@@ -180,7 +199,6 @@ hr.newStyle {
 	.main-container{
 		padding: 40px;
 		margin-top: 40px;
-		margin-bottom: 0px;
 	}
 }
 

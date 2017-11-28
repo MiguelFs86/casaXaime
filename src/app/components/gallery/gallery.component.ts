@@ -16,7 +16,7 @@ export class GalleryComponent implements OnInit {
       {'src': '/assets/img/gallery/frontage1-2.jpg', 'thumb': '/assets/img/gallery/frontage1-2-thumb.jpg'},
       {'src': '/assets/img/gallery/frontage1-1.jpg', 'thumb': '/assets/img/gallery/frontage1-1-thumb.jpg'},
       {'src': '/assets/img/gallery/frontage1-3.jpg', 'thumb': '/assets/img/gallery/frontage1-3-thumb.jpg'}
-    ]
+    ];
 
   	imgArr = [
   		{'src': '/assets/img/gallery/kitchen1-1.jpg', 'thumb': '/assets/img/gallery/kitchen1-1-thumb.jpg'},
@@ -56,6 +56,5 @@ export class GalleryComponent implements OnInit {
       {'src': '/assets/img/gallery/cafeteria1-1.jpg', 'thumb': '/assets/img/gallery/cafeteria1-1-thumb.jpg'},
       {'src': '/assets/img/gallery/cafeteria1-2.jpg', 'thumb': '/assets/img/gallery/cafeteria1-2-thumb.jpg'},
       {'src': '/assets/img/gallery/cafeteria1-3.jpg', 'thumb': '/assets/img/gallery/cafeteria1-3-thumb.jpg'}
-  	]
-
+  	];
 }
