@@ -9,7 +9,8 @@
 		"ABOUT": "¿Cómo llegar?"
 	},
     "HOME":{
-        "MAINTITLE":"Hotel Rural Casa Xaime"
+        "MAINTITLE":"Hotel Rural Casa Xaime",
+        "WELLCOMETEXT":"Bienvenidos a Casa Xaime"
     },
     "GALLERY": {
         "TITLE": "Galería de imágenes"

@@ -9,7 +9,8 @@
 		"ABOUT": "How to get?"
 	},
     "HOME":{
-        "MAINTITLE":"Hotel Rural Casa Xaime"
+        "MAINTITLE":"Hotel Rural Casa Xaime",
+        "WELLCOMETEXT":"Wellcome to Casa Xaime"
     },
     "GALLERY": {
         "TITLE": "Image gallery"

@@ -6,7 +6,7 @@
 <hr>
 <div class="jumbotron jumbotron-fluid home-container">
   	<div class="row">
-  		<div class="home-gallery col-xl-4 col-lg-4 col-md-6" *ngFor="let item of imageArray">
+  		<div class="home-gallery col-xl-4 col-lg-4 col-md-4" *ngFor="let item of imageArray">
           <a [href]=item.src data-lightbox="frontage-1">
             <img [src]=item.thumb>
         </a>
@@ -15,8 +15,8 @@
   	<hr>
   <div class="container">
     <div class="row">
-      <p class="col-md-12 text-center text-center" style="font-size: 22px;">
-        !Bienvenidos a Casa Xaime!
+      <p class="col-md-12 text-center text-center wellcome-text">
+        {{ 'HOME.WELLCOMETEXT' | translate }}
       </p>
     </div>
     <hr>
