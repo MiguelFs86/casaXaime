@@ -23,7 +23,7 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 
 export function httpFactory(http: Http){
-  return new TranslateStaticLoader(http, '/assets/translate', '.json');
+  return new TranslateStaticLoader(http, './assets/translate', '.json');
 }
 
 
