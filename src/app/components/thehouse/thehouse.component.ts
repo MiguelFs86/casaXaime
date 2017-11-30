@@ -11,9 +11,7 @@ export class ThehouseComponent implements OnInit {
 	mainImage3: string;
 
   	constructor() { 
-  		this.mainImage1 = '/assets/img/Frontage1.jpg';
-  		this.mainImage2 = '/assets/img/FrontImage2.jpeg';
-  		this.mainImage3 = '/assets/img/FrontImage3.jpeg';
+  		this.mainImage1 = './assets/img/Frontage1.jpg';
   	}
 
   ngOnInit() {
