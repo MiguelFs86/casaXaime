@@ -12,9 +12,9 @@ export class FooterComponent implements OnInit {
 	googlePlusLogo: string;
 
   	constructor() { 
-  		this.facebookLogo = '/assets/img/logos/facebook.png';
-  		this.twitterLogo = '/assets/img/logos/twitter.png';
-  		this.googlePlusLogo = '/assets/img/logos/googlePlus.png';
+  		this.facebookLogo = './assets/img/logos/facebook.png';
+  		this.twitterLogo = './assets/img/logos/twitter.png';
+  		this.googlePlusLogo = './assets/img/logos/googlePlus.png';
   	}
 
   ngOnInit() {
