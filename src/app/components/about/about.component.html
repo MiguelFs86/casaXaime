@@ -1,4 +1,7 @@
 <h3 class="text-center page-title">{{ 'HOWTOGET.TITLE' | translate }}</h3>
+Show map: {{ showMap }}
+<br>
+Founded address: {{ founded_address }}
 <hr>
 <br>
 <div class="row">
@@ -40,7 +43,7 @@
 			</button>
 		</div>
 	</div>
-	<div class="row animated fadeIn" *ngIf="showMap && origin.value !== ''">
+	<div class="row animated fadeIn" *ngIf="showMap && founded_address">
 	    <div class="col-xl-8 col-lg-8 col-md-12 offset-xl-2 offset-lg-2 text-center">
 	     	<div id="custom_map" class="custom_map"></div>
 	 	</div>
