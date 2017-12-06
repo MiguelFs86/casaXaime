@@ -17,14 +17,37 @@
 	</p>
 	<p>
 		{{ 'HOWTOGET.ACORUNA' | translate }}
-		<a style="color:#FBEEC1" href="https://www.google.es/maps/dir/La+Coru%C3%B1a/O+Reto,+15315,+La+Coru%C3%B1a/@43.2733994,-8.4691274,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0xd2e7cfcf174574d:0x6a47350d095cdfee!2m2!1d-8.4115401!2d43.3623436!1m5!1m1!1s0xd2e10a9cd47b3e3:0x8af9e6865d67a4fd!2m2!1d-7.9601377!2d43.2908002!3e0" target="_blank">{{ 'HOWTOGET.MAPS' | translate }}</a>
+		<a style="color:#FBEEC1; cursor: pointer" (click)="getCustomRoute('A Coruña, España'); showMap = true;">{{ 'HOWTOGET.MAPS' | translate }}</a>
 	</p>
 	<p>
 		{{ 'HOWTOGET.LUGO' | translate }}
-		<a style="color:#FBEEC1" href="https://www.google.es/maps/dir/Lugo/O+Reto,+15315,+La+Coru%C3%B1a/@43.1934804,-7.9328829,10.98z/data=!4m14!4m13!1m5!1m1!1s0xd31ce80b130876d:0x1f305fbf2867050c!2m2!1d-7.5567582!2d43.0097384!1m5!1m1!1s0xd2e10a9cd47b3e3:0x8af9e6865d67a4fd!2m2!1d-7.9601377!2d43.2908002!3e0" target="_blank">{{ 'HOWTOGET.MAPS' | translate }}</a>
+		<a style="color:#FBEEC1; cursor: pointer" (click)="getCustomRoute('Lugo, España'); showMap = true;">{{ 'HOWTOGET.MAPS' | translate }}</a>
 	</p>
 	<p>
 		{{ 'HOWTOGET.SANTIAGO' | translate }}
-		<a style="color:#FBEEC1" href="https://www.google.es/maps/dir/Santiago+de+Compostela,+La+Coru%C3%B1a/O+Reto,+15315,+La+Coru%C3%B1a/@43.081517,-8.5298216,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0xd2efe44e2dd71a7:0xe0146888c087e311!2m2!1d-8.5448445!2d42.8782132!1m5!1m1!1s0xd2e10a9cd47b3e3:0x8af9e6865d67a4fd!2m2!1d-7.9601377!2d43.2908002!3e0" target="_blank">{{ 'HOWTOGET.MAPS' | translate }}</a>
+		<a style="color:#FBEEC1; cursor: pointer" (click)="getCustomRoute('Santiago, España'); showMap = true;">{{ 'HOWTOGET.MAPS' | translate }}</a>
 	</p>
+	<p >
+		{{ 'HOWTOGET.CUSTOM_ADDRESS' | translate }}
+	</p>
+	<div style="margin: 10px" class="text-center">
+		<div class="row">
+			<input class="col-md-8 offset-md-2" #origin style="width:85%" type="text">
+		</div>
+		<div class="row" style="margin: 15px">
+			<button (click)="getCustomRoute(origin.value); showMap = true;" class="btn col-md-4 offset-md-4" style="background-color: #FBEEC1; color: #224e34c9">
+				{{ 'HOWTOGET.SHOW_ROUTE' | translate }}
+			</button>
+		</div>
+	</div>
+	<div class="row animated fadeIn" *ngIf="showMap && origin.value !== ''">
+	    <div class="col-xl-8 col-lg-8 col-md-12 offset-xl-2 offset-lg-2 text-center">
+	     	<div id="custom_map" class="custom_map"></div>
+	 	</div>
+	 	<div id="indications" class="indications">
+	 	</div>
+		<button (click)="showMap = !showMap" class="btn col-md-4 offset-md-4" style="background-color: #FBEEC1; color: #224e34c9; margin-top: 15px; margin-bottom: 15px;">
+				{{ 'HOWTOGET.HIDE_ROUTE' | translate }}
+		</button>
+	</div>
 </div>
