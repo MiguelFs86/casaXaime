@@ -41,9 +41,12 @@
     },
     "HOWTOGET":{
         "TITLE": "How to get?",
-        "MAPS":"Watch in Google Maps",
+        "MAPS":"Watch route in Google Maps",
         "ACORUNA": "From A Coruña: ",
         "LUGO": "From Lugo: ",
-        "SANTIAGO": "From Santiago: "
+        "SANTIAGO": "From Santiago: ",
+        "CUSTOM_ADDRESS": "From a custom address: ",
+        "SHOW_ROUTE": "Show route",
+        "HIDE_ROUTE": "Hide route"
     }
 }

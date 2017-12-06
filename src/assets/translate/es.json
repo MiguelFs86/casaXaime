@@ -41,9 +41,12 @@
     },
     "HOWTOGET":{
         "TITLE":"¿Como llegar?",
-        "MAPS":"Ver en Google Maps",
+        "MAPS":"Ver ruta en Google Maps",
         "ACORUNA": "Desde A Coruña: ",
         "LUGO": "Desde Lugo: ",
-        "SANTIAGO": "Desde Santiago: "
+        "SANTIAGO": "Desde Santiago: ",
+        "CUSTOM_ADDRESS": "Desde una dirección específica: ",
+        "SHOW_ROUTE": "Mostrar ruta",
+        "HIDE_ROUTE": "Ocultar ruta"
     }
 }
