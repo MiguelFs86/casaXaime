@@ -9,6 +9,9 @@ declare var google: any;
 
 export class AboutComponent implements OnInit {
 
+  showMap: boolean = false;
+  founded_address: boolean;
+
   constructor() { }
 
   ngOnInit() {
@@ -30,6 +33,7 @@ export class AboutComponent implements OnInit {
   }
 
   getCustomRoute( origin: any ){
+    this.founded_address = false;
     var coordinates = new google.maps.LatLng(43.291079, -7.958659);
     this.codeAddress(origin);
   }
@@ -41,7 +45,8 @@ export class AboutComponent implements OnInit {
     var len;
     geocoder.geocode( { 'address': address}, function(results, status) {
       if (status == 'OK') {
-        //this.founded_address(true);
+        this.founded_address = true;
+        console.log("Founded: ",this.founded_address);
         lat = results[0].geometry.location.lat();
         len = results[0].geometry.location.lng();
         var start = new google.maps.LatLng(lat, len);
@@ -67,15 +72,11 @@ export class AboutComponent implements OnInit {
             }
         });
       } else {
-        //this.founded_address(false);
+        this.founded_address = false;
+        console.log("Founded: ",this.founded_address);
         return;
         //alert('Geocode was not successful for the following reason: ' + status);
       }
     });
   }
-
-  founded_address( value: boolean ) {
-    return value;
-  }
-
 }
