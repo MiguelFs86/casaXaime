@@ -13,17 +13,17 @@
 		        <div class="carousel-inner" role="listbox">
 		          <div class="carousel-item active">
 		            <a [href]=imageArray[0].src data-lightbox="frontage-1">
-		              <img class="d-block img-fluid" [src]=imageArray[0].thumb alt="First slide">
+		              <img class="d-block img-fluid" [src]=imageArray[0].thumb [alt]=imageArray[0].title>
 		            </a>
 		          </div>
 		          <div class="carousel-item">
 		            <a [href]=imageArray[1].src data-lightbox="frontage-1">
-		              <img class="d-block img-fluid" [src]=imageArray[1].thumb alt="Second slide">
+		              <img class="d-block img-fluid" [src]=imageArray[1].thumb [alt]=imageArray[1].title>
 		            </a>
 		          </div>
 		          <div class="carousel-item">
 		            <a [href]=imageArray[2].src data-lightbox="frontage-1">
-		              <img class="d-block img-fluid" [src]=imageArray[2].thumb alt="Third slide">
+		              <img class="d-block img-fluid" [src]=imageArray[2].thumb [alt]=imageArray[2].title>
 		            </a>
 		          </div>
 		        </div>
