@@ -633,9 +633,9 @@ img.adp-marker{
     box-shadow: 0px -1px 1px #224e34c9;
 }
 
-@media screen and (max-width: 658px){
+@media screen and (max-width: 1100px){
 	.footer{
-		height: 30px;
+		height: 40px;
 	}
 }
 
