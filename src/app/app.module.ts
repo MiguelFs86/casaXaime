@@ -4,6 +4,7 @@ import { Http, HttpModule } from '@angular/http';
 import { TranslateModule, TranslateLoader, TranslateStaticLoader } from 'ng2-translate';
 
 import { HashLocationStrategy, LocationStrategy } from "@angular/common";
+import { FormsModule } from '@angular/forms';
 
 // Routes
 import { APP_ROUTING } from './app.routes';
@@ -51,6 +52,7 @@ export function httpFactory(http: Http){
   imports: [
     BrowserModule,
     HttpModule,
+    FormsModule,
     TranslateModule.forRoot({
       provide: TranslateLoader,
       useFactory: httpFactory,
