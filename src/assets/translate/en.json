@@ -8,6 +8,11 @@
 		"RESERVATION": "Reservation",
 		"HOWTOGET": "How to get?"
 	},
+    "FOOTER":{
+        "TERMSANDCONDITIONS": "Terms and conditions",
+        "COOKIEUSAGE": "Cookie usage",
+        "PRIVACYPOLICY": "Privacy policy"
+    },
     "HOME":{
         "MAINTITLE":"Hotel Rural Casa Xaime",
         "WELLCOMETEXT":"Wellcome to Casa Xaime"
