@@ -1,37 +1,39 @@
-<h3 class="text-center page-title">{{ 'SERVICES.TITLE' | translate }}</h3><hr>
-<div class="jumbotron jumbotron-fluid">
-	<div class="container service-container">
-		<div class="row">
-			<a (click)="collapseAll()" class="col-md-1 offset-md-11 fa fa-hand-o-down" style="margin-bottom: 20px;color:white; font-size: 28px;"></a>
-		</div>
-		<ul class="list-group" *ngFor="let item of serviceList">
-			<li (click)="item.show = !item.show" class="list-group-item service-item">
-				<div class="row">
-					<span class="col-md-2">
-						<img [src]=item.icon height="30">
-					</span>
-					<span class="col-md-6 offset-md-1 text-center align-middle service-title">
-						{{ item.title | uppercase }}
-					</span>
-					<span class="col-md-1 offset-md-2 pull-right" *ngIf="item.show">
-						<i class="fa fa-minus-circle" aria-hidden="true"></i>
-					</span>
-					<span class="col-md-1 offset-md-2 pull-right" *ngIf="!item.show">
-						<i class="fa fa-plus-circle" aria-hidden="true"></i>
-					</span>
-				</div>
-				<div class="row">
-					<div class="animated fadeIn col-md-10 offset-md-2" *ngIf="item.show">
-						<br>
-						<p class="service-list">
-							- {{ item.description }}
-						</p>
+<div class="container animated fadeIn">
+	<h3 class="text-center page-title">{{ 'SERVICES.TITLE' | translate }}</h3><hr>
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container service-container">
+			<div class="row">
+				<a (click)="collapseAll()" class="col-md-1 offset-md-11 fa fa-hand-o-down" style="margin-bottom: 20px;color:white; font-size: 28px;"></a>
+			</div>
+			<ul class="list-group" *ngFor="let item of serviceList">
+				<li (click)="item.show = !item.show" class="list-group-item service-item">
+					<div class="row">
+						<span class="col-md-2">
+							<img [src]=item.icon height="30">
+						</span>
+						<span class="col-md-6 offset-md-1 text-center align-middle service-title">
+							{{ item.title | uppercase }}
+						</span>
+						<span class="col-md-1 offset-md-2 pull-right" *ngIf="item.show">
+							<i class="fa fa-minus-circle" aria-hidden="true"></i>
+						</span>
+						<span class="col-md-1 offset-md-2 pull-right" *ngIf="!item.show">
+							<i class="fa fa-plus-circle" aria-hidden="true"></i>
+						</span>
 					</div>
-				</div>
-			</li>
-		</ul>
-		<div class="row">
-			<a (click)="collapseAll()" class="col-md-1 offset-md-11 fa fa-hand-o-up" style="margin-top: 20px;color:white; font-size: 28px;"></a>
+					<div class="row">
+						<div class="animated fadeIn col-md-10 offset-md-2" *ngIf="item.show">
+							<br>
+							<p class="service-list">
+								- {{ item.description }}
+							</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="row">
+				<a (click)="collapseAll()" class="col-md-1 offset-md-11 fa fa-hand-o-up" style="margin-top: 20px;color:white; font-size: 28px;"></a>
+			</div>
 		</div>
 	</div>
 </div>
