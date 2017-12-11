@@ -40,7 +40,7 @@
       <div class="form-check">
         <label class="form-check-label">
           <input type="checkbox" class="form-check-input" required>
-          {{ 'RESERVATION.ACCEPT' | translate }} <a style="color:#FBEEC1" href="" target="_blank">{{ 'RESERVATION.TERMS' | translate }}</a> {{ 'RESERVATION.RESERVATION' | translate }}
+          {{ 'RESERVATION.ACCEPT' | translate }} <a style="color:#FBEEC1" [routerLink]="['/termsandconditions']" target="_blank">{{ 'RESERVATION.TERMS' | translate }}</a> {{ 'RESERVATION.RESERVATION' | translate }}
         </label>
       </div>
       <br>
