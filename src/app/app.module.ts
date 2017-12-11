@@ -24,6 +24,7 @@ import { PricingComponent } from './components/pricing/pricing.component';
 import { HowtogetComponent } from './components/howtoget/howtoget.component';
 import { CookieusageComponent } from './components/cookieusage/cookieusage.component';
 import { PrivacypolicyComponent } from './components/privacypolicy/privacypolicy.component';
+import { TermsandconditionsComponent } from './components/termsandconditions/termsandconditions.component';
 
 export function httpFactory(http: Http){
   return new TranslateStaticLoader(http, './assets/translate', '.json');
@@ -45,6 +46,7 @@ export function httpFactory(http: Http){
     HowtogetComponent,
     CookieusageComponent,
     PrivacypolicyComponent,
+    TermsandconditionsComponent,
   ],
   imports: [
     BrowserModule,

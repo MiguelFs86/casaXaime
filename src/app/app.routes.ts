@@ -9,6 +9,7 @@ import { PricingComponent } from './components/pricing/pricing.component';
 import { HowtogetComponent } from './components/howtoget/howtoget.component';
 import { CookieusageComponent } from './components/cookieusage/cookieusage.component';
 import { PrivacypolicyComponent } from './components/privacypolicy/privacypolicy.component';
+import { TermsandconditionsComponent } from './components/termsandconditions/termsandconditions.component';
 
 const APP_ROUTES: Routes = [
 	{ path: 'home', component: HomeComponent },
@@ -21,6 +22,7 @@ const APP_ROUTES: Routes = [
 	{ path: 'howtoget', component: HowtogetComponent },
 	{ path: 'cookieusage', component: CookieusageComponent },
 	{ path: 'privacypolicy', component: PrivacypolicyComponent },
+	{ path: 'termsandconditions', component: TermsandconditionsComponent },
 	{ path: '**', pathMatch: 'full', redirectTo: 'home'}
 ];
 
