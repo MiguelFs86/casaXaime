@@ -6,7 +6,7 @@
 		"GALLERY": "Galery",
 		"RATES": "Pricing/Rates",
 		"RESERVATION": "Reservation",
-		"ABOUT": "How to get?"
+		"HOWTOGET": "How to get?"
 	},
     "HOME":{
         "MAINTITLE":"Hotel Rural Casa Xaime",
@@ -48,5 +48,11 @@
         "CUSTOM_ADDRESS": "From a custom address: ",
         "SHOW_ROUTE": "Show route",
         "HIDE_ROUTE": "Hide route"
+    },
+    "PRIVACYPOLICY":{
+        "TITLE":"Privacy policy"
+    },
+    "COOKIEUSAGE":{
+        "TITLE":"Cookie usage"
     }
 }

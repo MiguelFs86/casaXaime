@@ -29,8 +29,7 @@ export class ThehouseComponent implements OnInit {
       {'title': 'Paseos a caballo', 'description':'Organiza tu ruta o paseo en caballo para contemplar las maravillas del paisaje.', 'image':'./assets/img/activities/horse_riding.png'},
       {'title': 'Desdenso en canoa', 'description':'Descienda por el río Eume, explorando las Fragas desde dentro, montado en una canoa. <a target=_blank a href=www.cdfragasdoeume.com>www.cdfragasdoeume.com</a>', 'image':'./assets/img/activities/canoeing.png'},
       {'title': 'Rutas en Quad', 'description':'Disfrute de una ruta en Quad organizada para explorar el entorno natural.', 'image':'./assets/img/activities/quading.png'},
-      {'title': 'Turismo histórico', 'description':'En los alrededores de Casa Xaime existen un gran número de museos y turismo histórico, como el Monasterio de Monfero, el Monasterio de Caaveiro o la Torre de Andrade.', 'image':'./assets/img/activities/museum.png'},
-      {'title': 'Rutas en Quad', 'description':'<a href="www.google.es">www.google.es</a>', 'image':'./assets/img/activities/quading.png'},
+      {'title': 'Turismo histórico', 'description':'En los alrededores de Casa Xaime existen un gran número de museos y turismo histórico, como el Monasterio de Monfero, el Monasterio de Caaveiro o la Torre de Andrade.', 'image':'./assets/img/activities/museum.png'}  
     ]
 
     imageArray = [

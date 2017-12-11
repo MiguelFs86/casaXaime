@@ -21,6 +21,9 @@ import { ServicesComponent } from './components/services/services.component';
 import { ThehouseComponent } from './components/thehouse/thehouse.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { PricingComponent } from './components/pricing/pricing.component';
+import { HowtogetComponent } from './components/howtoget/howtoget.component';
+import { CookieusageComponent } from './components/cookieusage/cookieusage.component';
+import { PrivacypolicyComponent } from './components/privacypolicy/privacypolicy.component';
 
 export function httpFactory(http: Http){
   return new TranslateStaticLoader(http, './assets/translate', '.json');
@@ -39,6 +42,9 @@ export function httpFactory(http: Http){
     ThehouseComponent,
     FooterComponent,
     PricingComponent,
+    HowtogetComponent,
+    CookieusageComponent,
+    PrivacypolicyComponent,
   ],
   imports: [
     BrowserModule,

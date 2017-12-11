@@ -6,7 +6,7 @@
 		"GALLERY": "Galería",
 		"RATES": "Tarifas/Prezos",
 		"RESERVATION": "Reservas",
-		"ABOUT": "¿Cómo chegar?"
+		"HOWTOGET": "¿Cómo chegar?"
 	},
     "HOME":{
         "MAINTITLE":"Hotel Rural Casa Xaime",
@@ -48,5 +48,11 @@
         "CUSTOM_ADDRESS": "Dende unha dirección específica: ",
         "SHOW_ROUTE": "Mostrar ruta",
         "HIDE_ROUTE": "Ocultar ruta"
+    },
+    "PRIVACYPOLICY":{
+        "TITLE":"Política de privacidade"
+    },
+    "COOKIEUSAGE":{
+        "TITLE":"Uso de cookies"
     }
 }
