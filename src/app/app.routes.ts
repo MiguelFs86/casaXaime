@@ -6,6 +6,9 @@ import { ReservationComponent } from './components/reservation/reservation.compo
 import { ServicesComponent } from './components/services/services.component';
 import { ThehouseComponent } from './components/thehouse/thehouse.component';
 import { PricingComponent } from './components/pricing/pricing.component';
+import { HowtogetComponent } from './components/howtoget/howtoget.component';
+import { CookieusageComponent } from './components/cookieusage/cookieusage.component';
+import { PrivacypolicyComponent } from './components/privacypolicy/privacypolicy.component';
 
 const APP_ROUTES: Routes = [
 	{ path: 'home', component: HomeComponent },
@@ -15,6 +18,9 @@ const APP_ROUTES: Routes = [
 	{ path: 'services', component: ServicesComponent },
 	{ path: 'thehouse', component: ThehouseComponent },
 	{ path: 'pricing', component: PricingComponent },
+	{ path: 'howtoget', component: HowtogetComponent },
+	{ path: 'cookieusage', component: CookieusageComponent },
+	{ path: 'privacypolicy', component: PrivacypolicyComponent },
 	{ path: '**', pathMatch: 'full', redirectTo: 'home'}
 ];
 
