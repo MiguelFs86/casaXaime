@@ -130,7 +130,6 @@ p, label{
 }
 
 .nav-link {
-	text-align: center;
 	font-size: 18px;
 	margin-left: 10px;
 	padding-right: 1em !important;
@@ -149,6 +148,31 @@ p, label{
 	border-radius: 25px;
 }
 
+
+/* Shows a line below menu items on hover */
+/*
+.nav-link:hover{
+	transform: scale(1.2);
+    transition: 0.5s all ease;
+}
+
+.nav-link::after {
+  background-color: #224e34c9;
+  content: "";
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  transition: width 0.35s ease 0s;
+  position: absolute;
+}
+
+.nav-link:hover::after {
+	margin-left: 5px;
+  	width: 80%;
+}
+
+*/
 
 @media screen and (max-width: 992px){
 	.nav-link{
