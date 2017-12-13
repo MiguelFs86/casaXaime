@@ -1,7 +1,7 @@
 <div class="container animated fadeIn">
-	<h3 class=" page-title text-center">{{ 'GALLERY.TITLE' | translate }}</h3>
+	<h3 class="page-title text-center">{{ 'GALLERY.TITLE' | translate }}</h3>
 	<hr>
-	<div class="animated fadeIn row">
+	<div class="row">
 		<div class="gallery col-xl-4 col-lg-4 col-md-4" *ngFor="let item of firstImgArr">
 			<a [href]=item.src data-lightbox="example-1">
 				<img [src]=item.thumb>
