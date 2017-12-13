@@ -199,7 +199,6 @@ p, label{
 
 .navbar-dark .navbar-nav .active>.nav-link:hover{
 	color: #224e34c9 !important;
-	font-style: italic;
 	background-color: #f6e19f;
 	border-radius: 25px;
 }
