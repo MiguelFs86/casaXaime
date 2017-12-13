@@ -100,6 +100,10 @@ p, label{
 	cursor: pointer;
 }
 
+.container{
+	max-width: 940px;
+}
+
 /* -------------------- END GLOBAL STYLES ------------------------------ */
 
 
@@ -534,6 +538,7 @@ div.desc {
 
 .pricing-data{
 	padding-bottom: 0px !important;
+	text-align: justify;
 }
 
 .reservation-form{
