@@ -130,8 +130,8 @@ p, label{
 }
 
 .nav-link {
+	text-align: center;
 	font-size: 18px;
-	font-style: italic;
 	margin-left: 10px;
 	padding-right: 1em !important;
 	padding-left: 0.5em !important;
@@ -144,25 +144,11 @@ p, label{
 }
 
 .nav-link:hover{
-	transform: scale(1.2);
-    transition: 0.5s all ease;
+	color: #f6e19f !important;
+	background-color: #224e34c9;
+	border-radius: 25px;
 }
 
-.nav-link::after {
-  background-color: #224e34c9;
-  content: "";
-  width: 0;
-  height: 3px;
-  left: 0;
-  bottom: 0;
-  transition: width 0.35s ease 0s;
-  position: absolute;
-}
-
-.nav-link:hover::after {
-	margin-left: 5px;
-  	width: 80%;
-}
 
 @media screen and (max-width: 992px){
 	.nav-link{
@@ -183,7 +169,17 @@ p, label{
 }
 
 .navbar-dark .navbar-nav .active>.nav-link{
-	color:#224e34c9;
+	color: #224e34c9;
+	font-style: italic;
+	background-color: #f6e19f;
+	border-radius: 25px;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link:hover{
+	color: #224e34c9 !important;
+	font-style: italic;
+	background-color: #f6e19f;
+	border-radius: 25px;
 }
 
 .lenguageIcons{

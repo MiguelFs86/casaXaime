@@ -40,6 +40,9 @@
 					{{ 'HOWTOGET.SHOW_ROUTE' | translate }}
 				</button>
 			</div>
+			<div class="row" *ngIf="not_found_address">
+				No se ha encontrado la dirección.
+			</div>
 		</div>
 		<div class="row animated fadeIn" *ngIf="showMap">
 		    <div class="col-xl-8 col-lg-8 col-md-12 offset-xl-2 offset-lg-2 text-center">
