@@ -131,7 +131,6 @@ p, label{
 
 .nav-link {
 	font-size: 18px;
-	margin-left: 10px;
 	padding-right: 1em !important;
 	padding-left: 0.5em !important;
   	font-family: 'Poppins', sans-serif;
@@ -194,7 +193,6 @@ p, label{
 
 .navbar-dark .navbar-nav .active>.nav-link{
 	color: #224e34c9;
-	font-style: italic;
 	background-color: #f6e19f;
 	border-radius: 25px;
 }
@@ -204,6 +202,10 @@ p, label{
 	font-style: italic;
 	background-color: #f6e19f;
 	border-radius: 25px;
+}
+
+.menu-item-text{
+	margin-left: 10px;
 }
 
 .lenguageIcons{
