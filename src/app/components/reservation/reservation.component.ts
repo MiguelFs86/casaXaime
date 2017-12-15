@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MailService, IMessage } from '../../mail.service';
 
 @Component({
   selector: 'app-reservation',
@@ -6,10 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReservationComponent implements OnInit {
 
-  constructor() { }
+	message: IMessage = {};
 
-  ngOnInit() {
-  	window.scrollTo(0, 0);
-  }
+  	constructor(private mailService: MailService) { }
 
+  	ngOnInit() {
+  		window.scrollTo(0, 0);
+  	}
+
+  	send(form: IMessage){
+  		console.log(form);
+  		this.mailService.sendEmail(form).subscribe(res => {
+	      console.log('Reservation Success', res);
+	    }, error => {
+	      console.log('Reservation Error', error);
+	    });
+  	}
 }
