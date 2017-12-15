@@ -2,7 +2,11 @@
   <h3 class="text-center page-title">{{ 'RESERVATION.TITLE' | translate }}</h3>
   <hr>
   <div class="jumbotron jumbotron-fluid">
-      <form class="reservation-form col-md-12 col-md-offset-1">
+      <p style="margin:20px;">
+        Puede realizar una reserva en Casa Xaime rellenando el siguiente formulario, o poniéndose en contacto con nosotros a través del teléfono XXX-XXX-XXX, o mandándonos un correo electrónico a <a style="color:#FBEEC1;" href="mailto:info@casaxaime.com">info@casaxaime.com</a>
+      </p>
+      <hr>
+      <form class="reservation-form col-sm-8 offset-sm-2">
         <div class="form-group">
           <label for="inputName">{{ 'RESERVATION.NAME' | translate }}</label>
           <input type="text" class="form-control" id="inputName" aria-describedby="name" placeholder="Introduce tu nombre" required="">
@@ -15,17 +19,19 @@
           <label for="inputEmail">{{ 'RESERVATION.EMAIL' | translate }}</label>
           <input type="text" class="form-control" id="inputEmail" aria-describedby="email" placeholder="Introduce tu email" required>
         </div>
-        <div class="form-group">
-          <label for="from-date">{{ 'RESERVATION.CHECKINDATE' | translate }}</label>
-          <input type="date" class="form-control" id="fromDate" aria-describedby="fromDate" style="width: 35%" required>
-        </div>
-        <div class="form-group">
-          <label for="to-date">{{ 'RESERVATION.CHECKOUTDATE' | translate }}</label>
-          <input type="date" class="form-control" id="toDate" aria-describedby="toDate" style="width: 35%" required>
+        <div class="row">
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="from-date">{{ 'RESERVATION.CHECKINDATE' | translate }}</label>
+            <input type="date" class="form-control" id="fromDate" aria-describedby="fromDate" required>
+          </div>
+          <div class="form-group col-sm-6 col-xs-12">
+            <label for="to-date">{{ 'RESERVATION.CHECKOUTDATE' | translate }}</label>
+            <input type="date" class="form-control" id="toDate" aria-describedby="toDate" required>
+          </div>
         </div>
         <div class="form-group">
           <label for="exampleSelect1">{{ 'RESERVATION.ROOMS' | translate }}</label>
-          <select class="form-control" id="exampleSelect1" style="width: 35%" required>
+          <select class="form-control" id="exampleSelect1" required>
             <option value="" disabled hidden selected>{{ 'RESERVATION.SELECT' | translate }}</option>
             <option>1 habitación</option>
             <option>2 habitaciones</option>
@@ -45,7 +51,7 @@
           </label>
         </div>
         <br>
-        <button type="submit" class="btn text-center" style="background-color: #FBEEC1; color: #224e34c9">{{ 'RESERVATION.SEND' | translate }}</button>
+        <button (click)="send()" type="submit" class="btn text-center" style="background-color: #FBEEC1; color: #224e34c9">{{ 'RESERVATION.SEND' | translate }}</button>
       </form>
   </div>
 </div>
