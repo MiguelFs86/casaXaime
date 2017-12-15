@@ -576,8 +576,36 @@ div.desc {
 }
 
 .reservation-form{
+	font-size: 14px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+}
+
+.reservation-form input{
+	font-size: 14px;
+}
+
+.form-control{
+	font-size: 14px;
+}
+
+@media screen and (max-width: 768px){
+	.reservation-form{
+		font-size: 12px;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.reservation-form input{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.form-control{
+		font-size: 12px;	
+	}
 }
 
 .page-title{
@@ -649,10 +677,8 @@ img.adp-marker{
 	background-color: #FBEEC1;
 }
 
-@media screen and (max-width: 768px){
-	.form-control{
-		width: 85% !important;
-	}
+.input-address{
+	width: 85%;
 }
 
 /* -------------------- END HOW TO GET PAGE STYLES ------------------------------ */
