@@ -24,7 +24,6 @@ export class MailService {
   }
  
   sendEmail(message: IMessage): Observable<IMessage> | any {
-  	console.log(message);
     return this.http.post(this.emailUrl, message)
       .map(response => {
         console.log('Sending email was successfull', response);
