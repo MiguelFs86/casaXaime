@@ -9,6 +9,10 @@ import { FormsModule } from '@angular/forms';
 // Routes
 import { APP_ROUTING } from './app.routes';
 
+// Cookie law banner
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CookieLawModule } from 'angular2-cookie-law';
+
 // Services
 
 // Components
@@ -51,8 +55,10 @@ export function httpFactory(http: Http){
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     HttpModule,
     FormsModule,
+    CookieLawModule,
     TranslateModule.forRoot({
       provide: TranslateLoader,
       useFactory: httpFactory,
@@ -60,6 +66,7 @@ export function httpFactory(http: Http){
     }),
     APP_ROUTING
   ],
+  exports: [BrowserModule],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })

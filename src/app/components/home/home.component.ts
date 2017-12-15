@@ -26,8 +26,8 @@ export class HomeComponent implements OnInit {
     {'src':'./assets/img/gallery/frontage1-3.jpg','thumb':'./assets/img/gallery/frontage1-3-thumb.jpg'}
   ];
 
-  	ngOnInit() {
-      window.scrollTo(0, 0);
-    }
+  ngOnInit() {
+    window.scrollTo(0, 0);
+  }
 
 }
