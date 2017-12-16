@@ -6,6 +6,8 @@ import { TranslateModule, TranslateLoader, TranslateStaticLoader } from 'ng2-tra
 import { HashLocationStrategy, LocationStrategy } from "@angular/common";
 import { FormsModule } from '@angular/forms';
 
+import { RecaptchaModule } from 'ng2-recaptcha';
+
 // Routes
 import { APP_ROUTING } from './app.routes';
 import { MailService, IMessage } from './mail.service';
@@ -60,6 +62,7 @@ export function httpFactory(http: Http){
     HttpModule,
     FormsModule,
     CookieLawModule,
+    RecaptchaModule.forRoot(),
     TranslateModule.forRoot({
       provide: TranslateLoader,
       useFactory: httpFactory,

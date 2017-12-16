@@ -8,6 +8,16 @@ import { MailService, IMessage } from '../../mail.service';
 export class ReservationComponent implements OnInit {
 
 	message: IMessage = {};
+	//captcha_solved:boolean = false;
+	form_data:Object ={
+		name: '',
+		surname: '',
+		email: '',
+		checkindate: '',
+		checkoutdate: '',
+		room_selector: '',
+		comments: ''
+	}; 
 
   	constructor(private mailService: MailService) { }
 
@@ -21,13 +31,22 @@ export class ReservationComponent implements OnInit {
 	      console.log('Reservation Success', res);
 	      if (res.status == 200){
 	      	/* Show popup with OK message */
+
 	      	/* Clear form */
+	      	this.form_data = {};
 	      	window.alert("Todo OK");
 	      }
 	    }, error => {
 	      //console.log('Reservation Error', error);
 	      /* Show error popup */
 	      window.alert("Error");
+	      
 	    });
   	}
+
+ 	resolved(captchaResponse: string) {
+ 		//this.captcha_solved = true;
+        console.log(`Resolved captcha with response ${captchaResponse}:`);
+        console.log(captchaResponse);
+    }
 }
