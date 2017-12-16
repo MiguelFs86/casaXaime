@@ -8,6 +8,13 @@
 		 url('assets/fonts/Hancock.woff');
 }
 
+@media screen and (max-width: 400px){
+	.recaptcha>div>div,iframe{
+		margin-left: -50px !important;
+		transform:scale(0.77);
+	}
+}
+
 /* -------------------------GENERAL ANIMATIONS ----------------------- */
 .animated {
   -webkit-animation-duration: 1s;
