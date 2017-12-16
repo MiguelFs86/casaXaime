@@ -9,20 +9,36 @@ export class ReservationComponent implements OnInit {
 
 	message: IMessage = {};
 	//captcha_solved:boolean = false;
-	form_data:Object ={
+	form_data ={
 		name: '',
 		surname: '',
 		email: '',
 		checkindate: '',
 		checkoutdate: '',
 		room_selector: '',
-		comments: ''
+		comments: '',
+		captcha: '',
+		agree: ''
 	}; 
 
   	constructor(private mailService: MailService) { }
 
   	ngOnInit() {
   		window.scrollTo(0, 0);
+  	}
+
+  	clearForm(){
+  		this.form_data ={
+		name: '',
+		surname: '',
+		email: '',
+		checkindate: '',
+		checkoutdate: '',
+		room_selector: '',
+		comments: '',
+		captcha: '',
+		agree: ''
+	}; 
   	}
 
   	send(form: IMessage){
@@ -33,7 +49,7 @@ export class ReservationComponent implements OnInit {
 	      	/* Show popup with OK message */
 
 	      	/* Clear form */
-	      	this.form_data = {};
+	      	this.clearForm();
 	      	window.alert("Todo OK");
 	      }
 	    }, error => {
