@@ -8,17 +8,6 @@
 		 url('assets/fonts/Hancock.woff');
 }
 
-@media screen and (max-width: 400px){
-	recaptcha>div>div,iframe{
-		margin-left: -15px !important;
-		transform:scale(0.85);
-	}
-
-	recaptcha>div{
-		width: 0px !important;
-	}
-}
-
 /* -------------------------GENERAL ANIMATIONS ----------------------- */
 .animated {
   -webkit-animation-duration: 1s;
@@ -349,13 +338,15 @@ div.home-image img{
 
 @media screen and (max-width: 520px){
 	.main-title{
-		font-size: 30px;
+		/* Was 30 */
+		font-size: 36px;
 	}
 }
 
 @media screen and (max-width: 375px){
 	.main-title{
-		font-size: 20px;
+		/* Was 20 */
+		font-size: 36px;
 	}
 }
 
@@ -437,6 +428,10 @@ div.house-image img{
 	    width: 100%;
 	    height: 100%;
 	}
+}
+
+.table td{
+	word-break: break-word;
 }
 /* --------------------- END THE HOUSE PAGE STYLES ------------------------- */
 
@@ -621,6 +616,17 @@ div.desc {
 
 .page-title{
 	color: #224e34c9;
+}
+
+@media screen and (max-width: 400px){
+	recaptcha>div>div,iframe{
+		margin-left: -15px !important;
+		transform:scale(0.85);
+	}
+
+	recaptcha>div{
+		width: 0px !important;
+	}
 }
 
 /* -------------------- END RESERVATION PAGE STYLES ------------------------------ */
