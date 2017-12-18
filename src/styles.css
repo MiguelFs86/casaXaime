@@ -9,9 +9,13 @@
 }
 
 @media screen and (max-width: 400px){
-	.recaptcha>div>div,iframe{
-		margin-left: -50px !important;
-		transform:scale(0.77);
+	recaptcha>div>div,iframe{
+		margin-left: -15px !important;
+		transform:scale(0.85);
+	}
+
+	recaptcha>div{
+		width: 0px !important;
 	}
 }
 
