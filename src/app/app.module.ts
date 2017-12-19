@@ -1,24 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Http, HttpModule } from '@angular/http';
-import { TranslateModule, TranslateLoader, TranslateStaticLoader } from 'ng2-translate';
-
 import { HashLocationStrategy, LocationStrategy } from "@angular/common";
 import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+//Translate module
+import { TranslateModule, TranslateLoader, TranslateStaticLoader } from 'ng2-translate';
+
+// Captcha solver module
 import { RecaptchaModule } from 'ng2-recaptcha';
-
-import { BootstrapModalModule } from 'ng2-bootstrap-modal';
 
 // Routes
 import { APP_ROUTING } from './app.routes';
-import { MailService, IMessage } from './mail.service';
 
 // Cookie law banner
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CookieLawModule } from 'angular2-cookie-law';
 
 // Services
+import { MailService, IMessage } from './mail.service';
 
 // Components
 import { AppComponent } from './app.component';
@@ -35,12 +35,10 @@ import { HowtogetComponent } from './components/howtoget/howtoget.component';
 import { CookieusageComponent } from './components/cookieusage/cookieusage.component';
 import { PrivacypolicyComponent } from './components/privacypolicy/privacypolicy.component';
 import { TermsandconditionsComponent } from './components/termsandconditions/termsandconditions.component';
-import { ConfirmComponent } from './components/shared/confirm/confirm.component';
 
 export function httpFactory(http: Http){
   return new TranslateStaticLoader(http, './assets/translate', '.json');
 }
-
 
 @NgModule({
   declarations: [
@@ -58,7 +56,6 @@ export function httpFactory(http: Http){
     CookieusageComponent,
     PrivacypolicyComponent,
     TermsandconditionsComponent,
-    ConfirmComponent,
   ],
   imports: [
     BrowserModule,
@@ -66,7 +63,6 @@ export function httpFactory(http: Http){
     HttpModule,
     FormsModule,
     CookieLawModule,
-    BootstrapModalModule.forRoot({container:document.body}),
     RecaptchaModule.forRoot(),
     TranslateModule.forRoot({
       provide: TranslateLoader,
@@ -74,9 +70,6 @@ export function httpFactory(http: Http){
       deps: [Http]
     }),
     APP_ROUTING
-  ],
-  entryComponents: [
-    ConfirmComponent
   ],
   exports: [BrowserModule],
   providers: [MailService, {provide: LocationStrategy, useClass: HashLocationStrategy}],
