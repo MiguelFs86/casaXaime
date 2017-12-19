@@ -15,7 +15,10 @@
     },
     "HOME":{
         "MAINTITLE":"Hotel Rural Casa Xaime",
-        "WELLCOMETEXT":"Bienvenidos a Casa Xaime"
+        "WELLCOMETEXT":"Bienvenidos a Casa Xaime",
+        "PARAGRAPH_1": "Situada en el pueblo de 'O Reto', a 20 km. de Monfero, Casa Xaime ofrece una estancia en un entorno natural único. ",
+        "PARAGRAPH_2": "Nuestra casa rural ofrece multitud de servicios, como alojamiento, comida, actividades nocturas, reuniones de negocios, así como actividades de exterior como paseos por el monte en Quad o rutas a caballo.",
+        "PARAGRAPH_3": "Disponemos de 50 plazas en un alojamiento cómodo y confortable ideal para una escapada con familia o amigos."
     },
     "GALLERY": {
         "TITLE": "Galería de imágenes"
@@ -33,16 +36,38 @@
         "SEND": "Enviar",
         "ACCEPT":"Acepto los ",
         "TERMS": "términos y condiciones",
-        "RESERVATION": "de la reserva."
+        "RESERVATION": "de la reserva.",
+        "ROOM_ONE":"Habitación",
+        "ROOM_MULTIPLE": "Habitaciones",
+        "NO_SPECIFY": "Sin especificar",
+        "MAIN_TEXT":"Puede realizar una reserva en Casa Xaime rellenando el siguiente formulario, o poniéndose en contacto con nosotros a través del teléfono 981 999 999, o mandándonos un correo electrónico a"
     },
     "THEHOUSE":{
-    	"TITLE":"La casa"
+    	"TITLE":"La casa",
+        "PARAGRAPH_1": "Situada en la localidad de Monfero, Casa Xaime ofrece un entorno natural único, rodeado de naturaleza, ideal para actividades al aire libre.",
+        "PARAGRAPH_2": "A continuación ofrecemos una lista de actividades que se pueden realizar en los alrededores de la casa. Para cualquier duda o pregunta, no dudes en ponerte en contacto con nosotros."
     },
     "SERVICES":{
     	"TITLE":"Servicios"
     },
     "PRICING":{
-    	"TITLE":"Tarifas/precios"
+    	"TITLE":"Tarifas/precios",
+        "SERVICE_TYPE" :"Tipo de servicio",
+        "TAX_TEXT": "Todos los precios incluyen el 10% de IVA",
+        "REGULAR_DAYS":"Días regulares",
+        "HOLYDAY_DAYS":"Días festivos",
+        "ROW_1": "Habitación simple",
+        "ROW_2": "Habitación doble c/baño (camas individuales)",
+        "ROW_3": "Habitación doble c/baño (cama matrimonio)  ",
+        "ROW_4": "Apartamento completo (3 habitaciones, 2 baños y cocina)",
+        "ROW_5": "Desayuno",
+        "ROW_6": "Comida o cena",
+        "NIGHT": "noche",
+        "PERSON": "persona",
+        "PARAGRAPH_1": "La entrada se realizará a partir de las 12:00 de la mañana y la salida será antes de las 14:00 del mediodía, salvo aviso especial.",
+        "PARAGRAPH_2": "Los precios son susceptibles de cambios en festivos locales y nacionales.",
+        "PARAGRAPH_3": "Para una reserva superior a 1 semana, será necesario contactar con la dirección y recibir una confirmación por email o por teléfono.",
+        "PARAGRAPH_4": "A la hora de ralizar una reserva, será necesario hacer un depósito cuya cuantía será indicada antes de realizarla, y que será devuelta mediante transferencia bancaria al día siguiente de abandonar el alojamiento, siempre y cuando se haya comprobado que no han habido desperfectos."
     },
     "HOWTOGET":{
         "TITLE":"¿Como llegar?",

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { MailService, IMessage } from '../../mail.service';
- import { ConfirmComponent } from '../shared/confirm/confirm.component';
 
 @Component({
   selector: 'app-reservation',
@@ -43,7 +42,7 @@ export class ReservationComponent implements OnInit {
   		window.scrollTo(0, 0);
   	}
 
-  	clearForm(){
+  	close_dialog(){
   		this.modal_title = '';
   		this.modal_message = '';
   		this.form_data ={
@@ -87,10 +86,7 @@ export class ReservationComponent implements OnInit {
 	      	/* Show popup with OK message */
 	      	this.modal_title = "Solicitud de reserva enviada con éxito";
 	      	this.modal_message = "Su solicitud ha sido de reserva ha sido enviada con éxito. Nos pondremos en contacto con usted por correo electrónico para confirmar la reserva.";
-	      	//this.showPopup(title, message);
-	      	/* Clear form */
-	      	this.clearForm();	      	
-	      	
+	      	//this.showPopup(title, message);	      		      	
 	      }
 	    }, error => {
 	      //console.log('Reservation Error', error);
