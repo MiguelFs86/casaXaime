@@ -53,15 +53,13 @@
         </label>
       </div>
       <br>
-      <!--
       <div class="form-check">
         <recaptcha 
         siteKey="6LfjTj0UAAAAAFNhti5y0HP2l-e_UesZlcN4T--W" name="captcha" [(ngModel)]="form_data.captcha" required>
         </recaptcha>
       </div>
-      -->
       <br>
-      <button [disabled]="!form.valid" type="submit" class="btn text-center" style="background-color: #FBEEC1; color: #224e34c9">
+      <button [disabled]="!form.valid" type="submit" class="btn text-center" style="background-color: #FBEEC1; color: #224e34c9" data-toggle="modal" data-target="#myModal">
         {{ 'RESERVATION.SEND' | translate }}
       </button>
     </form>
@@ -71,18 +69,18 @@
 <button data-toggle="modal" data-target="#myModal" class="btn btn-primary">
     My Button
 </button>
+
 <div class="modal fade" id="myModal" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">My Modal</h4>
+        <h4 class="modal-title">{{ modal_title }}</h4>
       </div>
       <div class="modal-body">
-        <p>My Modal Body</p>
+        <p style="color: black">{{ modal_message }}</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>

@@ -42,7 +42,6 @@
 /* ------------------------------- GLOBAL STYLES -------------------------- */
 
 body{
-
 	padding-top: 60px;
 	padding-bottom: 100px;
 	background: -webkit-linear-gradient(#FBEEC1, #eac238ab); /* For Safari 5.1 to 6.0 */
@@ -632,8 +631,8 @@ div.desc {
 	top: 10% !important;
 }
 
-.modal-backdrop.in {
-	opacity: 0.9;
+.modal-backdrop {
+  z-index: -1;
 }
 
 /* -------------------- END RESERVATION PAGE STYLES ------------------------------ */
