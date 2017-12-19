@@ -26,8 +26,11 @@
     "RESERVATION":{
     	"TITLE":"Reservas",
     	"NAME": "Nombre:",
+        "PLACEHOLDER_NAME":"Introduce tu nombre",
     	"SURNAME": "Apellidos:",
+        "PLACEHOLDER_SURNAME":"Introduce tus apellidos",
         "EMAIL": "Email:",
+        "PLACEHOLDER_EMAIL":"Introduce tu email",
         "CHECKINDATE": "Fecha de llegada:",
         "CHECKOUTDATE": "Fecha de salida:",
         "ROOMS": "Nº de habitaciones:",
