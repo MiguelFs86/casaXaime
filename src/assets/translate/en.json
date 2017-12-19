@@ -15,7 +15,10 @@
     },
     "HOME":{
         "MAINTITLE":"Hotel Rural Casa Xaime",
-        "WELLCOMETEXT":"Wellcome to Casa Xaime"
+        "WELLCOMETEXT":"Wellcome to Casa Xaime",
+        "PARAGRAPH_1": "Located in the village of 'O Reto', 20 km. from Monfero, Casa Xaime offers a stay in a unique natural environment.",
+        "PARAGRAPH_2": "Our house offers many services, such as accommodation, food, night activities, business meetings, as well as outdoor activities such as mountain walks by feet, quad or horseback riding.",
+        "PARAGRAPH_3": "We have 50 places in a comfortable and comfortable accommodation ideal for a getaway with family or friends."
     },
     "GALLERY": {
         "TITLE": "Image gallery"
@@ -33,16 +36,38 @@
         "SEND": "Send",
         "ACCEPT":"I agree with the ",
         "TERMS": "térms and conditions ",
-        "RESERVATION": "of the reservation."
+        "RESERVATION": "of the reservation.",
+        "ROOM_ONE":"Room",
+        "ROOM_MULTIPLE": "Rooms",
+        "NO_SPECIFY": "No specify",
+        "MAIN_TEXT":"You can make a reservation at Casa Xaime by filling the following form or by contacting us by phone at +34 981 999 999 or by sending us an email to "
     },
     "THEHOUSE":{
-    	"TITLE":"The house"
+    	"TITLE":"The house",
+        "PARAGRAPH_1": "Located in the town of Monfero, Casa Xaime offers a unique natural environment, surrounded by nature, ideal for outdoor activities.",
+        "PARAGRAPH_2": "Below there is a list of activities that can be done around the house. For any questions or sugestions, do not hesitate to contact us."
     },
     "SERVICES":{
     	"TITLE":"Services"
     },
     "PRICING":{
-    	"TITLE":"Pricing/Rates"
+    	"TITLE":"Pricing/Rates",
+        "TAX_TEXT": "All prices include 10% VAT",
+        "SERVICE_TYPE" :"Service type",
+        "REGULAR_DAYS":"Regular days",
+        "HOLYDAY_DAYS":"Holydays",
+        "ROW_1": "Simple room",
+        "ROW_2": "Double romm w/bath (individual beds)",
+        "ROW_3": "Double room w/bath (double bed)  ",
+        "ROW_4": "Full apartment (3 rooms, 2 baths and kitchen)",
+        "ROW_5": "Breakfast",
+        "ROW_6": "Lunch or dinner",
+        "NIGHT": "night",
+        "PERSON": "person",
+        "PARAGRAPH_1": "The check-in will be made from 12pm and the check-out will be before 2pm, unless special notice.",
+        "PARAGRAPH_2": "Prices are subject to changes in local and national holidays.",
+        "PARAGRAPH_3": "For a reservation over 1 week, it will be necessary to contact the address and receive a confirmation by email or phone.",
+        "PARAGRAPH_4": "At the time of making a reservation, it will be necessary to make a deposit whose amount will be indicated before making it, and which will be returned by bank transfer the day after leaving the accommodation, provided it has been verified that there have been no damages."
     },
     "HOWTOGET":{
         "TITLE": "How to get?",
