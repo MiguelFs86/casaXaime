@@ -33,13 +33,13 @@ export class ThehouseComponent implements OnInit {
       {'title': 'Rutas en Quad', 'description':'Disfrute de una ruta en Quad organizada para explorar el entorno natural.', 'image':'./assets/img/activities/quading.png'},
       {'title': 'Turismo histórico', 'description':'En los alrededores de Casa Xaime existen un gran número de museos y turismo histórico, como el Monasterio de Monfero, el Monasterio de Caaveiro o la Torre de Andrade.', 'image':'./assets/img/activities/museum.png'},
       {'title': 'Playas', 'description':'A menos de 30 Km. de la casa, puedes visitar las playas de Miño, Perbes, Pontedeume o Cabañas. Y a un poco más, las playas de Coruña o Ferrol.', 'image':'./assets/img/activities/beach.png'}  
-    ]
+    ];
 
     imageArray = [
       {'title':'Fragas do Eume', 'thumb':'./assets/img/activities/fragas_aerial_thumb.jpg','src':'./assets/img/activities/fragas_aerial.jpg'},
       {'title':'Monasterio de Caaveiro', 'thumb':'./assets/img/activities/caaveiro_thumb.jpg','src':'./assets/img/activities/caaveiro.jpg'},
       {'title':'Monasterio de Monfero', 'thumb':'./assets/img/activities/monfero_thumb.jpg','src':'./assets/img/activities/monfero.jpg'}
-    ]
+    ];
 
   ngOnInit() {
     window.scrollTo(0, 0);
