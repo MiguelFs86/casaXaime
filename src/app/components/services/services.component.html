@@ -3,26 +3,26 @@
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container service-container">
 			<div class="row">
-				<a (click)="collapseAll()" class="col-md-1 offset-md-11 fa fa-hand-o-down" style="margin-bottom: 20px;color:white; font-size: 28px;"></a>
+				<a (click)="collapseAll()" class="col-sm-1 offset-sm-11 fa fa-hand-o-down" style="margin-bottom: 20px;color:white; font-size: 28px;"></a>
 			</div>
 			<ul class="list-group" *ngFor="let item of serviceList">
 				<li (click)="item.show = !item.show" class="list-group-item service-item">
 					<div class="row">
-						<span class="col-md-2">
+						<span class="col-sm-2">
 							<img [src]=item.icon height="30">
 						</span>
-						<span class="col-md-6 offset-md-1 text-center align-middle service-title">
+						<span class="col-sm-6 offset-sm-1 text-center align-middle service-title">
 							{{ item.title | uppercase }}
 						</span>
-						<span class="col-md-1 offset-md-2 pull-right" *ngIf="item.show">
+						<span class="col-sm-1 offset-sm-2 pull-right" *ngIf="item.show">
 							<i class="fa fa-minus-circle" aria-hidden="true"></i>
 						</span>
-						<span class="col-md-1 offset-md-2 pull-right" *ngIf="!item.show">
+						<span class="col-sm-1 offset-sm-2 pull-right" *ngIf="!item.show">
 							<i class="fa fa-plus-circle" aria-hidden="true"></i>
 						</span>
 					</div>
 					<div class="row">
-						<div class="animated fadeIn col-md-10 offset-md-2" *ngIf="item.show">
+						<div class="animated fadeIn col-sm-10 offset-sm-2" *ngIf="item.show">
 							<br>
 							<p class="service-list">
 								- {{ item.description }}
