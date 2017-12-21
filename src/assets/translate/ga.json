@@ -47,6 +47,18 @@
     },
     "THEHOUSE":{
     	"TITLE":"A casa",
+        "TREKKING_TITLE":"Senderismo",
+        "TREKKING_DESCRIPTION":"Disfrute de unha gran cantidade de rutas e camiños aredor dunha paisaxe tan único e especial como As Fragas do Eume.",
+        "HORSERIDING_TITLE":"Rutas a cabalo",
+        "HORSERIDING_DESCRIPTION":"Organiza a túa ruta ou paseo a cabalo para contemplar as marabillas da paisaxe.",
+        "CANOEING_TITLE":"Descenso en canoa",
+        "CANOEING_DESCRIPTION":"Descenda polo río Eume, explorando as Fragas dende dentro, montado nunha canoa. <a target=_blank a href=www.cdfragasdoeume.com>www.cdfragasdoeume.com</a>",
+        "QUADING_TITLE":"Rutas en Quad",
+        "QUADING_DESCRIPTION":"Disfrute dunha ruta en Quad organizada para explorar a contorna natural.",
+        "MUSEUM_TITLE":"Turismo histórico",
+        "MUSEUM_DESCRIPTION":"Nos alrededores de Casa Xaime existen un gran número de museos e turismo histórico, como o Mosteiro de Monfero, o Mosteiro de Caaveiro ou a Torre de Andrade.",
+        "BEACH_TITLE":"Praias",
+        "BEACH_DESCRIPTION":"A menos de 30 Km. da casa, podes visitar as praias de Miño, Perbes, Pontedeume ou Cabañas. E a un pouco máis, as praias de Coruña ou Ferrol.",
         "PARAGRAPH_1": "Situado na localidade de Monfero, Casa Xaime ofrece un entorno natural único, rodeado de natureza, ideal para actividades ao aire libre.",
         "PARAGRAPH_2": "A continuación móstranse unha lista de actividades que se poden realizar en toda a casa. Para calquera dúbida ou pregunta, non dubide en contactar connosco."
     },
