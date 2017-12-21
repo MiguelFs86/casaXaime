@@ -47,6 +47,18 @@
     },
     "THEHOUSE":{
     	"TITLE":"The house",
+        "TREKKING_TITLE":"Trekking",
+        "TREKKING_DESCRIPTION":"Enjoy a lot of routes and paths around a landscape as unique and special as As Fragas do Eume.",
+        "HORSERIDING_TITLE":"Horse riding",
+        "HORSERIDING_DESCRIPTION":"Organize your route or horse ride to contemplate the wonders of the landscape.",
+        "CANOEING_TITLE":"Canoeing",
+        "CANOEING_DESCRIPTION":"Descend by the Eume river, exploring the Fragas from within, mounted in a canoe. <a target=_blank a href=www.cdfragasdoeume.com>www.cdfragasdoeume.com</a>",
+        "QUADING_TITLE":"Quading",
+        "QUADING_DESCRIPTION":"Enjoy an organized Quad route to explore the natural environment.",
+        "MUSEUM_TITLE":"Historic turism",
+        "MUSEUM_DESCRIPTION":"In the surroundings of Casa Xaime there are a large number of museums and historical tourism, such as Monfero Monastery, Caaveiro Monastery or Torre de Andrade.",
+        "BEACH_TITLE":"Beachs",
+        "BEACH_DESCRIPTION":"Less than 30 km from the house, you can visit the beaches of Miño, Perbes, Pontedeume or Cabañas. And a little further, the beaches of Coruña or Ferrol.",
         "PARAGRAPH_1": "Located in the town of Monfero, Casa Xaime offers a unique natural environment, surrounded by nature, ideal for outdoor activities.",
         "PARAGRAPH_2": "Below there is a list of activities that can be done around the house. For any questions or sugestions, do not hesitate to contact us."
     },

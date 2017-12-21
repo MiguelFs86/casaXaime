@@ -27,12 +27,12 @@ export class ThehouseComponent implements OnInit {
   	}
 
     activities = [
-      {'title': 'Senderismo', 'description':'Disfrute de una gran cantidad de rutas y caminos alrededor de una paisaje tan único y especial como As Fragas do Eume.', 'image':'./assets/img/activities/trekking.png'},
-      {'title': 'Paseos a caballo', 'description':'Organiza tu ruta o paseo en caballo para contemplar las maravillas del paisaje.', 'image':'./assets/img/activities/horse_riding.png'},
-      {'title': 'Desdenso en canoa', 'description':'Descienda por el río Eume, explorando las Fragas desde dentro, montado en una canoa. <a target=_blank a href=www.cdfragasdoeume.com>www.cdfragasdoeume.com</a>', 'image':'./assets/img/activities/canoeing.png'},
-      {'title': 'Rutas en Quad', 'description':'Disfrute de una ruta en Quad organizada para explorar el entorno natural.', 'image':'./assets/img/activities/quading.png'},
-      {'title': 'Turismo histórico', 'description':'En los alrededores de Casa Xaime existen un gran número de museos y turismo histórico, como el Monasterio de Monfero, el Monasterio de Caaveiro o la Torre de Andrade.', 'image':'./assets/img/activities/museum.png'},
-      {'title': 'Playas', 'description':'A menos de 30 Km. de la casa, puedes visitar las playas de Miño, Perbes, Pontedeume o Cabañas. Y a un poco más, las playas de Coruña o Ferrol.', 'image':'./assets/img/activities/beach.png'}  
+      {'title': 'THEHOUSE.TREKKING_TITLE', 'description':'THEHOUSE.TREKKING_DESCRIPTION', 'image':'./assets/img/activities/trekking.png'},
+      {'title': 'THEHOUSE.HORSERIDING_TITLE', 'description':'THEHOUSE.HORSERIDING_DESCRIPTION', 'image':'./assets/img/activities/horse_riding.png'},
+      {'title': 'THEHOUSE.CANOEING_TITLE', 'description':'THEHOUSE.CANOEING_DESCRIPTION', 'image':'./assets/img/activities/canoeing.png'},
+      {'title': 'THEHOUSE.QUADING_TITLE', 'description':'THEHOUSE.QUADING_DESCRIPTION', 'image':'./assets/img/activities/quading.png'},
+      {'title': 'THEHOUSE.MUSEUM_TITLE', 'description':'THEHOUSE.MUSEUM_DESCRIPTION', 'image':'./assets/img/activities/museum.png'},
+      {'title': 'THEHOUSE.BEACH_TITLE', 'description':'THEHOUSE.BEACH_DESCRIPTION', 'image':'./assets/img/activities/beach.png'}  
     ];
 
     imageArray = [

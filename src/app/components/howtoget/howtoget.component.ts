@@ -20,7 +20,7 @@ export class HowtogetComponent implements OnInit {
   	var coordinates = new google.maps.LatLng(43.291079, -7.958659);
    	var mapOptions = {
         center: coordinates,
-        zoom: 18,
+        zoom: 16,
         mapTypeId: google.maps.MapTypeId.HYBRID
     }
 
