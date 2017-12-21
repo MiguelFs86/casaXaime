@@ -30,10 +30,10 @@ export class NavbarComponent implements OnInit {
   	}
 
     changeLenguage(params){
-      if (params == 0) { this.translate.setDefaultLang('es');this.translate.currentLang = 'es'; };
-      if (params == 1) { this.translate.setDefaultLang('ga');this.translate.currentLang = 'ga'; };
-      if (params == 2) { this.translate.setDefaultLang('en');this.translate.currentLang = 'en'; };
-      this.currentLang = this.translate.currentLang;
+      if (params == 0) { this.translate.setDefaultLang('es');};
+      if (params == 1) { this.translate.setDefaultLang('ga');};
+      if (params == 2) { this.translate.setDefaultLang('en');};
+      //this.currentLang = this.translate.currentLang;
     }
 
     ngOnInit() {

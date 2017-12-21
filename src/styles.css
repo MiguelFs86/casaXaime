@@ -78,7 +78,7 @@ p {
 
 .main-container{
 	max-width: 1000px;
-	margin-top: 40px;
+	margin-top: 10px;
 }
 
 @media screen and (max-width: 992px){
@@ -135,6 +135,13 @@ p {
 	 -webkit-box-shadow: 0px 1px 1px #224e34c9;
     -moz-box-shadow: 0px 1px 1px #224e34c9;
     box-shadow: 0px 1px 1px #224e34c9;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-nav{
+	transform: scale(0.9);
+	margin-left: -2vw;
 }
 
 .navbar-dark .navbar-nav .nav-link{
@@ -458,6 +465,13 @@ div.house-image img{
 .service-title{
 	font-size: 16px;
 	color: #224e34c9;
+}
+
+@media screen and (max-width: 768px){
+	.service-title{
+		font-size: 14px;
+		color: #224e34c9;
+	}
 }
 
 .service-item{
