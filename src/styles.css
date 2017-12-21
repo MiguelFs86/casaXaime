@@ -698,16 +698,18 @@ div.desc {
 
 .indications{
 	margin: 50px;
+	font-size: 14px;
 }
 
 @media screen and (max-width: 576px){
 	.indications{
-		font-size: 12px;
+		font-size: 10px;
 	}
 }
 
 .adp, .adp table{
 	color: white !important;
+	margin: 0 auto;
 }
 
 .adp-step, .adp-text{
