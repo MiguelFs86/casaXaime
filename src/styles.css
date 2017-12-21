@@ -450,6 +450,7 @@ div.house-image img{
 }
 
 .service-list{
+	text-align: justify;
 	padding: 5px;
 	font-size: 14px;
 	color: #224e34c9;
@@ -496,6 +497,10 @@ div.house-image img{
 		width: 40px;
 		height: 40px;
 	}
+}
+
+.list-group-item{
+	border-radius: 30px !important;
 }
 
 /* -------------------- END SERVICES PAGE STYLES ------------------------------ */
