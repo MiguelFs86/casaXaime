@@ -390,6 +390,30 @@ hr.newStyle {
 	vertical-align: middle;
 }
 
+@media screen and (max-width: 768px){
+	.home-contact .fa{
+		font-size: 20px !important;
+	}
+
+	.home-contact .fa a{
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		vertical-align: middle;
+	}
+}
+
+@media screen and (max-width: 425px){
+	.home-contact .fa{
+		font-size: 18px !important;
+	}
+
+	.home-contact .fa a{
+		font-family: 'Roboto', sans-serif;
+		font-size: 12px;
+		vertical-align: middle;
+	}
+}
+
 /* -------------------- END HOME PAGE STYLES ------------------------------ */
 
 
