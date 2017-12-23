@@ -783,6 +783,18 @@ img.adp-marker{
 	}
 }
 
+@media screen and (max-width: 658px){
+	.footer{
+		height: 30px;
+	}
+}
+
+@media screen and (max-width: 435px){
+	.footer{
+		height: 40px;
+	}
+}
+
 .footer-contact{
 	font-size: 12px;
 }
