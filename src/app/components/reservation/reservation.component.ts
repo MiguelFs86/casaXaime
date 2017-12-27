@@ -10,6 +10,7 @@ export class ReservationComponent implements OnInit {
 	message: IMessage = {};
 	modal_title: string = '';
 	modal_message: string = '';
+	today = new Date();
 	//captcha_solved:boolean = false;
 	/*
 	form_data ={
@@ -21,10 +22,10 @@ export class ReservationComponent implements OnInit {
 		room_selector: '2 habitaciones',
 		comments: 'aa',
 		captcha: '',
-		agree: 'true'
+		agree: true
 	};
 	*/
-		form_data ={
+	form_data ={
 		name: '',
 		surname: '',
 		email: '',
@@ -45,6 +46,12 @@ export class ReservationComponent implements OnInit {
   	close_dialog(){
   		this.modal_title = '';
   		this.modal_message = '';
+  		if ((new Date(this.form_data.checkindate) > new Date(this.form_data.checkoutdate)) && (new Date(this.form_data.checkindate) >= this.today)){
+  			this.clear_form();
+  		}
+  	}
+
+  	clear_form(){
   		this.form_data ={
 			name: '',
 			surname: '',
@@ -55,7 +62,7 @@ export class ReservationComponent implements OnInit {
 			comments: '',
 			captcha: '',
 			agree: false
-		}; 
+		};
   	}
 
   	/*
@@ -79,22 +86,33 @@ export class ReservationComponent implements OnInit {
 
   	send(form: IMessage){
   		console.log(form);
-  		window.scrollTo(0, 0);
-  		this.mailService.sendEmail(form).subscribe(res => {
-	      console.log('Reservation Success', res);
-	      if (res.status == 200){
-	      	/* Show popup with OK message */
-	      	this.modal_title = "Solicitud de reserva enviada con éxito";
-	      	this.modal_message = "Su solicitud ha sido de reserva ha sido enviada con éxito. Nos pondremos en contacto con usted por correo electrónico para confirmar la reserva.";
-	      	//this.showPopup(title, message);	      		      	
-	      }
-	    }, error => {
-	      //console.log('Reservation Error', error);
-	      /* Show error popup */
-	      this.modal_title = "Ha ocurrido un error";
-	      this.modal_message = "No ha sido posible enviar la solicitud. Por favor, inténtelo más tarde.";
-	      //this.showPopup(title, message);    
-	    });
+  		if ((new Date(form.checkindate) < new Date(form.checkoutdate)) && (new Date(form.checkindate) >= this.today)){
+	  		window.scrollTo(0, 0);
+	  		this.mailService.sendEmail(form).subscribe(res => {
+		      console.log('Reservation Success', res);
+		      if (res.status == 200){
+		      	/* Show popup with OK message */
+		      	this.modal_title = "Solicitud de reserva enviada con éxito";
+		      	this.modal_message = "Su solicitud ha sido de reserva ha sido enviada con éxito. Nos pondremos en contacto con usted por correo electrónico para confirmar la reserva.";
+		      	//this.showPopup(title, message);	      		      	
+		      }
+		    }, error => {
+		      //console.log('Reservation Error', error);
+		      /* Show error popup */
+		      this.modal_title = "Ha ocurrido un error";
+		      this.modal_message = "No ha sido posible enviar la solicitud. Por favor, inténtelo más tarde.";
+		      //this.showPopup(title, message);    
+		    });
+		}else{
+			if (new Date(form.checkindate) < this.today){
+				this.modal_title = "Ha ocurrido un error";
+		    	this.modal_message = "La fecha de llegada debe ser mayor que el día actual.";
+			} else{
+				this.modal_title = "Ha ocurrido un error";
+		    	this.modal_message = "La fecha de llegada debe ser menor que la de salida.";
+		    }
+			console.log("Date wrong");
+		}
   	}
 
  	resolved(captchaResponse: string) {
